@@ -1,0 +1,20 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "Robherto82",
+      "database": "RumahMakan",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+  
+    "test": {
+      "username": "postgres",
+      "password": "Robherto82",
+      "database": "RumahMakan_testing",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "production": {
+        "use_env_variable": "DATABASE_URL"
+    }
+  }

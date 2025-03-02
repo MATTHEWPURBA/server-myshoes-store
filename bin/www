@@ -1,22 +1,8 @@
-// File: src/index.js
-const express = require('express');
-const cors = require('cors');
-const { PrismaClient } = require('@prisma/client');
-require('dotenv').config();
+#!/usr/bin/env node
 
-// Import all routes from routes/index.js
-const apiRoutes = require('./routes');
+const app = require("../src");
 
-const app = express();
-const prisma = new PrismaClient();
 const PORT = process.env.PORT || 3000;
-
-// Middleware
-app.use(cors());
-app.use(express.json());
-
-// Use all routes under /api prefix
-app.use('/api', apiRoutes);
 
 // Server startup
 const startServer = (port) => {
