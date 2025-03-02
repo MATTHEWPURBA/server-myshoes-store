@@ -60,9 +60,11 @@ model OrderItem {
 }
 
 enum OrderStatus {
+  PAID
   PENDING
   PROCESSING
   SHIPPED
   DELIVERED
   CANCELLED
 }
+
