@@ -1,21 +1,23 @@
 #!/usr/bin/env node
 
-const app = require("../src");
+const app = require('../src');
 
 const PORT = process.env.PORT || 3000;
 
 // Server startup
 const startServer = (port) => {
-  const server = app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-  }).on('error', (err) => {
-    if (err.code === 'EADDRINUSE') {
-      console.log(`Port ${port} is busy, trying ${port + 1}...`);
-      startServer(port + 1);
-    } else {
-      console.error('Server error:', err);
-    }
-  });
+  const server = app
+    .listen(port, '0.0.0.0', () => {
+      console.log(`Server running on port ${port}`);
+    })
+    .on('error', (err) => {
+      if (err.code === 'EADDRINUSE') {
+        console.log(`Port ${port} is busy, trying ${port + 1}...`);
+        startServer(port + 1);
+      } else {
+        console.error('Server error:', err);
+      }
+    });
 };
 
 startServer(PORT);
