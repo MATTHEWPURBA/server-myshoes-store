@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 if(process.env.NODE_ENV === 'development') {
   require('dotenv').config();
 }
@@ -6,7 +8,6 @@ if(process.env.NODE_ENV === 'development') {
 const express = require('express');
 const cors = require('cors');
 const { PrismaClient } = require('@prisma/client');
-require('dotenv').config();
 
 // Import all routes from routes/index.js
 const apiRoutes = require('./routes');

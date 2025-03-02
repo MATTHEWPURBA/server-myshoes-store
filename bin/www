@@ -9,6 +9,7 @@ const startServer = (port) => {
   const server = app
     .listen(port, '0.0.0.0', () => {
       console.log(`Server running on port ${port}`);
+      console.log("Database URL:", process.env.DATABASE_URL);
     })
     .on('error', (err) => {
       if (err.code === 'EADDRINUSE') {
