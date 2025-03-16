@@ -72,6 +72,21 @@ class OrderModel {
             throw new Error(`Error fetching order: ${error.message}`);
         }
     }
+
+
+    async deleteOrder(orderId) {
+        try {
+          // With onDelete: Cascade, this will automatically delete related items
+          return await prisma.order.delete({
+            where: { id: parseInt(orderId) }
+          });
+        } catch (error) {
+          throw new Error(`Error deleting order: ${error.message}`);
+        }
+      }
+
+
+
 }
 
 module.exports = new OrderModel();
