@@ -13,6 +13,18 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model CartItem {
+  id       Int    @id @default(autoincrement())
+  userId   Int
+  user     User   @relation(fields: [userId], references: [id])
+  shoeId   Int
+  shoe     Shoe   @relation(fields: [shoeId], references: [id])
+  quantity Int
+
+  @@index([userId])
+  @@index([shoeId])
+}
+
 model User {
   id        Int      @id @default(autoincrement())
   email     String   @unique
@@ -21,6 +33,7 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   orders    Order[]
+  cartItems CartItem[] // Add this line
 }
 
 model Shoe {
@@ -35,6 +48,7 @@ model Shoe {
   description String?
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
+  cartItems   CartItem[] // Add this line
 }
 
 model Order {
