@@ -6,8 +6,6 @@ const prisma = new PrismaClient({
   datasources: {
     db: {
       url: process.env.DATABASE_URL,
-          // Add maximum connections to avoid overwhelming the database
-    connectionLimit: 5
     },
   },
 });
