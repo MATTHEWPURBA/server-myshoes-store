@@ -1,6 +1,8 @@
 // File: src/models/shoe.model.js
-const { PrismaClient } = require('@prisma/client');
-const prisma = new PrismaClient();
+// const { PrismaClient } = require('@prisma/client');
+// const prisma = new PrismaClient();
+const prisma = require('../lib/prisma');
+
 
 class ShoeModel {
     async getAllShoes(filters = {}) {
