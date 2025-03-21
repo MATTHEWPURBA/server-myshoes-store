@@ -2,14 +2,17 @@
 // const { PrismaClient } = require('@prisma/client');
 // const prisma = new PrismaClient();
 const prisma = require('../lib/prisma');
+const midtransService = require('../services/midtrans.service');
 
 class OrderModel {
   async createOrder(orderData) {
     try {
-      return await prisma.order.create({
+      // First create the order in the database
+      const order = await prisma.order.create({
         data: {
           userId: parseInt(orderData.userId),
           total: parseFloat(orderData.total),
+          status: 'PENDING',
           items: {
             create: orderData.items.map((item) => ({
               shoeId: parseInt(item.shoeId),
@@ -20,12 +23,44 @@ class OrderModel {
         },
         include: {
           items: true,
+          user: {
+            select: {
+              id: true,
+              name: true,
+              email: true,
+            },
+          },
         },
       });
+
+      // Now create a payment transaction with Midtrans
+      const midtransResponse = await midtransService.createTransaction(order, order.user);
+
+      // Update the order with payment information
+      const updatedOrder = await prisma.order.update({
+        where: { id: order.id },
+        data: {
+          status: 'WAITING_FOR_PAYMENT',
+          paymentId: midtransResponse.transaction_id || null,
+          paymentUrl: midtransResponse.redirect_url || null,
+          snapToken: midtransResponse.token || null,
+        },
+        include: {
+          items: true,
+        },
+      });
+
+      return {
+        ...updatedOrder,
+        paymentUrl: midtransResponse.redirect_url,
+        snapToken: midtransResponse.token
+      };
     } catch (error) {
+      console.error('Order creation error:', error);
       throw new Error(`Error creating order: ${error.message}`);
     }
   }
+
 
   async getUserOrders(userId) {
     try {
@@ -76,6 +111,17 @@ class OrderModel {
 
   async deleteOrder(orderId) {
     try {
+      const order = await this.getOrderById(orderId);
+      
+      // If the order has a payment ID and is not yet paid, cancel it in Midtrans
+      if (order.paymentId && (order.status === 'PENDING' || order.status === 'WAITING_FOR_PAYMENT')) {
+        try {
+          await midtransService.cancelTransaction(order.paymentId);
+        } catch (error) {
+          console.error('Error cancelling payment:', error);
+          // Continue with deletion even if cancellation fails
+        }
+      }
       // With onDelete: Cascade, this will automatically delete related items
       return await prisma.order.delete({
         where: { id: parseInt(orderId) },
