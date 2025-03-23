@@ -258,15 +258,28 @@ const shoes = [
 async function main() {
   console.log('Start seeding...');
   
-  // Clean existing data (optional)
-  await prisma.shoe.deleteMany({});
-  
-  // Insert shoes data
-  for (const shoe of shoes) {
-    const createdShoe = await prisma.shoe.create({
-      data: shoe
+    // Instead of deleting, check which shoes already exist
+    const existingShoes = await prisma.shoe.findMany({
+      select: { name: true, brand: true, size: true }
     });
-    console.log(`Created shoe with ID: ${createdShoe.id}`);
+
+  // Clean existing data (optional)
+  // await prisma.shoe.deleteMany({});
+  
+  // Create only shoes that don't exist yet
+  for (const shoe of shoes) {
+    const exists = existingShoes.some(
+      s => s.name === shoe.name && s.brand === shoe.brand && s.size === shoe.size
+    );
+    
+    if (!exists) {
+      const createdShoe = await prisma.shoe.create({
+        data: shoe
+      });
+      console.log(`Created shoe with ID: ${createdShoe.id}`);
+    } else {
+      console.log(`Skipping existing shoe: ${shoe.name} (${shoe.brand}, size ${shoe.size})`);
+    }
   }
   
   console.log('Seeding completed.');
