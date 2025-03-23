@@ -8,10 +8,14 @@
     "dev": "sudo npx nodemon bin/www",
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push",
-    "prisma:studio": "prisma studio"
+    "prisma:studio": "prisma studio",
+    "seed": "node prisma/seed-shoes.js && node prisma/seed-exchange-rates.js && node prisma/seed-create-superadmin.js",
+    "seed:shoes": "node prisma/seed-shoes.js",
+    "seed:exchange": "node prisma/seed-exchange-rates.js",
+    "seed:admin": "node prisma/seed-create-superadmin.js"
   },
   "prisma": {
-    "seed": "node prisma/seed.js"
+    "seed": "npm run seed"
   },
   "dependencies": {
     "@prisma/client": "^6.3.1",

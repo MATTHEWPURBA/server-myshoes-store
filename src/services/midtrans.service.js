@@ -1,6 +1,8 @@
 // src/services/midtrans.service.js
 const midtransClient = require('midtrans-client');
 const midtransConfig = require('../config/midtrans');
+const currencyService = require('./currency.service');
+
 
 class MidtransService {
   constructor() {
@@ -20,42 +22,132 @@ class MidtransService {
   }
 
   /**
-   * Create Snap payment for an order
+   * Create Snap payment for an order with currency conversion
    * @param {Object} order - The order object
    * @param {Object} customer - Customer information
+   * @param {String} currency - Target currency (optional)
    * @returns {Promise<Object>} - Snap response with token and redirect URL
    */
-  async createTransaction(order, customer) {
-        // Round prices to whole numbers for IDR currency
-        const roundedTotal = Math.round(order.total);
+
+
+  async createTransaction(order, customer, currency = null) {
     try {
+      // Get conversion data if currency is provided
+      let conversionData = null;
+      let grossAmount = Math.round(order.total);
+      
+      if (currency && currency !== 'USD') {
+        conversionData = await currencyService.convertAmount(order.total, currency);
+        grossAmount = Math.round(conversionData.convertedAmount);
+      }
+      
+      // Prepare item details
+      const itemDetails = order.items.map(item => {
+        let itemPrice = Math.round(item.price);
+        
+        if (conversionData) {
+          itemPrice = Math.round(item.price * conversionData.exchangeRate);
+        }
+        
+        return {
+          id: `SHOE-${item.shoeId}`,
+          price: itemPrice,
+          quantity: item.quantity,
+          name: `Shoe ID: ${item.shoeId}`
+        };
+      });
+
+      // Calculate the sum of all item prices to check for shipping or other additional fees
+      const itemsTotal = itemDetails.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    
+      // If there's a difference between gross amount and items total, add it as a shipping fee
+      if (grossAmount > itemsTotal) {
+        const shippingFee = grossAmount - itemsTotal;
+        
+        // Add shipping as a separate item
+        itemDetails.push({
+          id: 'SHIPPING-FEE',
+          price: shippingFee,
+          quantity: 1,
+          name: order.shippingMethod === 'express' ? 'Express Shipping' : 'Shipping Fee'
+        });
+      } 
+    // This handles any potential rounding issues or currency conversion discrepancies
+    else if (grossAmount < itemsTotal) {
+      // Adjust the gross amount to match the item total (required by Midtrans)
+      grossAmount = itemsTotal;
+    }
+// Add currency conversion fees as a separate item if applicable
+if (conversionData && order.shippingFee) {
+  // Convert shipping fee to the target currency
+  const convertedShippingFee = Math.round(order.shippingFee * conversionData.exchangeRate);
+  
+  // Make sure shipping fee is included in the items
+  const hasShippingItem = itemDetails.some(item => 
+    item.id === 'SHIPPING-FEE' || item.name.includes('Shipping'));
+  
+  // If shipping fee is not already included, add it
+  if (!hasShippingItem && convertedShippingFee > 0) {
+    itemDetails.push({
+      id: 'SHIPPING-FEE',
+      price: convertedShippingFee,
+      quantity: 1,
+      name: order.shippingMethod === 'express' ? 'Express Shipping' : 'Shipping Fee'
+    });
+    
+    // Update gross amount to include shipping fee
+    grossAmount += convertedShippingFee;
+  }
+}
+
+// Final check to ensure gross_amount equals the sum of all items (required by Midtrans)
+const finalItemsTotal = itemDetails.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+if (grossAmount !== finalItemsTotal) {
+  grossAmount = finalItemsTotal;
+}
+
       const parameter = {
         transaction_details: {
           order_id: `ORDER-${order.id}-${new Date().getTime()}`,
-          gross_amount: roundedTotal
+          gross_amount: grossAmount
         },
         customer_details: {
           first_name: customer.name,
           email: customer.email
         },
-        item_details: order.items.map(item => ({
-          id: `SHOE-${item.shoeId}`,
-          price: Math.round(item.price),  // Round each item price
-          quantity: item.quantity,
-          name: `Shoe ID: ${item.shoeId}`
-        })),
+        item_details: itemDetails,
         credit_card: {
           secure: true
         }
       };
-
-      return await this.snap.createTransaction(parameter);
+      
+      // Add currency information if applicable
+      if (currency && currency !== 'USD') {
+        // Store conversion details in metadata
+        parameter.custom_field1 = JSON.stringify({
+          originalCurrency: currency || 'USD',
+          targetCurrency: 'IDR', // Midtrans always processes in IDR
+          exchangeRate: conversionData ? conversionData.exchangeRate : 1,
+          originalAmount: order.total,
+          note: "Display shows IDR but charge is in " + (currency || 'USD')
+        });
+      }
+      
+      const response = await this.snap.createTransaction(parameter);
+      
+      // Add conversion information to the response
+      return {
+        ...response,
+        conversionData
+      };
     } catch (error) {
       console.error('Midtrans create transaction error:', error);
       throw new Error(`Payment gateway error: ${error.message}`);
     }
   }
 
+
+  
   /**
    * Handle notification from Midtrans
    * @param {Object} notification - The notification object from Midtrans

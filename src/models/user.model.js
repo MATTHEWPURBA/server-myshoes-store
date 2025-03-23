@@ -76,6 +76,54 @@ class UserModel {
   async validatePassword(user, password) {
     return bcrypt.compare(password, user.password);
   }
+
+  // New methods for user management
+
+  async getAllUsers() {
+    try {
+      return await prisma.user.findMany({
+        select: {
+          id: true,
+          email: true,
+          name: true,
+          role: true,
+          createdAt: true,
+          sellerRequestStatus: true,
+          sellerRequestDate: true,
+          _count: {
+            select: {
+              products: true,
+              orders: true,
+            },
+          },
+        },
+      });
+    } catch (error) {
+      throw new Error(`Error fetching users: ${error.message}`);
+    }
+  }
+
+  async getSellerRequests(status) {
+    try {
+      return await prisma.user.findMany({
+        where: {
+          sellerRequestStatus: status,
+        },
+        select: {
+          id: true,
+          email: true,
+          name: true,
+          role: true,
+          createdAt: true,
+          sellerRequestStatus: true,
+          sellerRequestDate: true,
+          sellerRequestInfo: true,
+        },
+      });
+    } catch (error) {
+      throw new Error(`Error fetching seller requests: ${error.message}`);
+    }
+  }
 }
 
 module.exports = new UserModel();

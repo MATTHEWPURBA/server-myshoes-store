@@ -30,10 +30,19 @@ model User {
   email     String   @unique
   password  String
   name      String
+  role      UserRole @default(CUSTOMER)  // Add this field!
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  updatedAt DateTime @updatedAt  
   orders    Order[]
   cartItems CartItem[] // Add this line
+
+    // Add these new fields
+  products  Shoe[]    // Products created by this user
+  // For seller requests
+  sellerRequestStatus String?  // "PENDING", "APPROVED", "REJECTED"
+  sellerRequestDate   DateTime?
+  sellerRequestInfo   String?  // Additional information for becoming a seller
+
 }
 
 model Shoe {
@@ -49,6 +58,11 @@ model Shoe {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   cartItems   CartItem[] // Add this line
+
+   // Add this relationship
+  createdBy   Int?
+  creator     User?     @relation(fields: [createdBy], references: [id])
+
 }
 
 model Order {
@@ -60,13 +74,30 @@ model Order {
   items     OrderItem[]  @relation("OrderToOrderItem")
   createdAt DateTime     @default(now())
   updatedAt DateTime     @updatedAt
-    // Add these new fields for Midtrans integration
+  
+  // Add shipping details
+  shippingMethod String?     // 'standard', 'express', etc.
+  shippingFee    Float?      // The shipping fee amount
+  
+  // Payment fields
   paymentId    String?      @unique // Midtrans transaction ID
   paymentUrl   String?      // Midtrans payment page URL
   paymentMethod String?     // Payment method used
   paymentTime  DateTime?    // When payment was completed
   snapToken    String?      // For Snap redirect payments
+
+  // Currency fields
+  currency     String?      // Payment currency code
+  exchangeRate Float?       // Exchange rate at payment time
 }
+
+model ExchangeRate {
+  currency    String   @id
+  rate        Float
+  updatedAt   DateTime @default(now())
+  updatedBy   String?
+}
+
 
 model OrderItem {
   id       Int    @id @default(autoincrement())
@@ -86,4 +117,10 @@ enum OrderStatus {
   SHIPPED
   DELIVERED
   CANCELLED
+}
+
+enum UserRole {
+  CUSTOMER
+  SELLER
+  SUPERADMIN
 }

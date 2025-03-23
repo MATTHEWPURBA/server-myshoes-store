@@ -1,6 +1,8 @@
 // src/controllers/payment.controller.js
 const OrderModel = require('../models/order.model');
 const midtransService = require('../services/midtrans.service');
+const currencyService = require('../services/currency.service');
+const prisma = require('../lib/prisma');
 
 class PaymentController {
   /**
@@ -11,7 +13,7 @@ class PaymentController {
       const { orderId } = req.params;
       
       if (!orderId) {
-        return res.status(400).json({ error: 'Order ID is required' });
+        return res.status(400).json({ error: 'Order ID is requireds' });
       }
 
       const order = await OrderModel.getOrderById(parseInt(orderId));
@@ -19,6 +21,14 @@ class PaymentController {
       if (!order) {
         return res.status(404).json({ error: 'Order not found' });
       }
+
+            // If there's no payment ID yet, return the current status
+            if (!order.paymentId) {
+              return res.json({
+                orderId: order.id,
+                status: order.status
+              });
+            }
       
       // If the order has a payment ID, check its status with Midtrans
       if (order.paymentId) {
@@ -84,55 +94,78 @@ class PaymentController {
     }
   }
 
-  /**
-   * Generate a new payment for an existing order
-   */
-  async generatePayment(req, res) {
-    try {
-      const { orderId } = req.params;
-      
-      if (!orderId) {
-        return res.status(400).json({ error: 'Order ID is required' });
-      }
 
-      const order = await OrderModel.getOrderById(parseInt(orderId));
-      
-      if (!order) {
-        return res.status(404).json({ error: 'Order not found' });
-      }
-      
-      // Only allow generating payment for orders in PENDING or PAYMENT_FAILED status
-      if (order.status !== 'PENDING' && order.status !== 'PAYMENT_FAILED') {
-        return res.status(400).json({ 
-          error: 'Cannot generate payment. Order status is ' + order.status 
-        });
-      }
-      
-      // Create a new payment transaction
-      const midtransResponse = await midtransService.createTransaction(order, order.user);
-      
-      // Update the order with new payment information
-      const updatedOrder = await OrderModel.updateOrderStatus(order.id, 'WAITING_FOR_PAYMENT');
-      await prisma.order.update({
-        where: { id: order.id },
-        data: {
-          paymentId: midtransResponse.transaction_id || null,
-          paymentUrl: midtransResponse.redirect_url || null,
-          snapToken: midtransResponse.token || null,
-        }
-      });
-      
-      res.json({
-        orderId: updatedOrder.id,
-        status: updatedOrder.status,
-        paymentUrl: midtransResponse.redirect_url,
-        snapToken: midtransResponse.token
-      });
+  /**
+   * Get available currencies for payment
+   */
+  async getAvailableCurrencies(req, res) {
+    try {
+      const currencies = await currencyService.getAvailableCurrencies();
+      res.json(currencies);
     } catch (error) {
-      console.error('Generate payment error:', error);
+      console.error('Get currencies error:', error);
       res.status(500).json({ error: error.message });
     }
   }
+
+
+  /**
+ * Generate a new payment for an existing order
+ */
+async generatePayment(req, res) {
+  try {
+    const { orderId, currency = 'USD' } = req.body;
+    
+    if (!orderId) {
+      return res.status(400).json({ error: 'Order ID is required' });
+    }
+
+    const order = await OrderModel.getOrderById(parseInt(orderId));
+    
+    if (!order) {
+      return res.status(404).json({ error: 'Order not found' });
+    }
+    
+    // Allow generating payment for orders in PENDING, WAITING_FOR_PAYMENT, or PAYMENT_FAILED status
+    if (order.status !== 'PENDING' && order.status !== 'WAITING_FOR_PAYMENT' && order.status !== 'PAYMENT_FAILED') {
+      return res.status(400).json({ 
+        error: 'Cannot generate payment. Order status is ' + order.status 
+      });
+    }
+    
+    // Create a payment transaction using Midtrans
+    const customer = {
+      name: order.user.name,
+      email: order.user.email
+    };
+
+    // Create a new payment transaction
+    // Pass the currency to midtransService
+    const midtransResponse = await midtransService.createTransaction(order, customer, currency);
+    
+    // Update the order with new payment information
+    // CRITICAL FIX: Use OrderModel with uppercase O, not orderModel
+    const updatedOrder = await OrderModel.updateOrderPaymentInfo(order.id, {
+      status: 'WAITING_FOR_PAYMENT',
+      paymentId: midtransResponse.transaction_id || null,
+      paymentUrl: midtransResponse.redirect_url || null,
+      snapToken: midtransResponse.token || null,
+      currency: currency,
+      exchangeRate: midtransResponse.conversionData?.exchangeRate || 1
+    });
+    
+    res.json({
+      orderId: updatedOrder.id,
+      status: updatedOrder.status,
+      paymentUrl: midtransResponse.redirect_url,
+      snapToken: midtransResponse.token,
+      conversionData: midtransResponse.conversionData // Include conversion data in response
+    });
+  } catch (error) {
+    console.error('Generate payment error:', error);
+    return res.status(500).json({ error: `Payment generation failed: ${error.message}` });
+  }
+}
 
   /**
    * Cancel payment for an order
@@ -142,7 +175,7 @@ class PaymentController {
       const { orderId } = req.params;
       
       if (!orderId) {
-        return res.status(400).json({ error: 'Order ID is required' });
+        return res.status(400).json({ error: 'Order ID is requiredq' });
       }
 
       const order = await OrderModel.getOrderById(parseInt(orderId));

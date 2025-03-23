@@ -7,12 +7,19 @@ const midtransService = require('../services/midtrans.service');
 class OrderModel {
   async createOrder(orderData) {
     try {
+
+
+      // Extract shipping information if present
+      const { shippingMethod, shippingFee, ...rest } = orderData;
+    
       // First create the order in the database
       const order = await prisma.order.create({
         data: {
           userId: parseInt(orderData.userId),
           total: parseFloat(orderData.total),
           status: 'PENDING',
+          shippingMethod: shippingMethod || 'standard',
+          shippingFee: shippingFee || 0,
           items: {
             create: orderData.items.map((item) => ({
               shoeId: parseInt(item.shoeId),
@@ -32,6 +39,7 @@ class OrderModel {
           },
         },
       });
+
 
       // Now create a payment transaction with Midtrans
       const midtransResponse = await midtransService.createTransaction(order, order.user);
@@ -75,6 +83,20 @@ class OrderModel {
     }
   }
 
+  async updateOrderPaymentInfo(orderId, paymentInfo) {
+    try {
+      return await prisma.order.update({
+        where: { id: parseInt(orderId) },
+        data: paymentInfo,
+        include: {
+          items: true,
+        },
+      });
+    } catch (error) {
+      throw new Error(`Error updating order payment info: ${error.message}`);
+    }
+  }
+
   async updateOrderStatus(orderId, status) {
     try {
       return await prisma.order.update({
@@ -88,6 +110,38 @@ class OrderModel {
       throw new Error(`Error updating order status: ${error.message}`);
     }
   }
+
+
+
+  /**
+ * Update order after payment notification
+ * @param {string} orderId - The order ID
+ * @param {Object} paymentData - Payment data from Midtrans
+ * @returns {Promise<Object>} - Updated order
+ */
+async updateOrderPayment(orderId, paymentData) {
+  try {
+    const orderUpdate = {
+      status: paymentData.status,
+    };
+    
+    // Add payment details if payment was successful
+    if (paymentData.status === 'PAID') {
+      orderUpdate.paymentMethod = paymentData.paymentType;
+      orderUpdate.paymentTime = new Date();
+    }
+    
+    return await prisma.order.update({
+      where: { id: parseInt(orderId) },
+      data: orderUpdate,
+      include: {
+        items: true,
+      },
+    });
+  } catch (error) {
+    throw new Error(`Error updating order payment: ${error.message}`);
+  }
+}
 
   async getOrderById(orderId) {
     try {
