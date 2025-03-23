@@ -10,8 +10,19 @@ class UserController {
           error: 'Email already registered',
         });
       }
-      const user = await UserModel.createUser(req.body);
-      const token = jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '24h' });
+      // Create new user with CUSTOMER role by default
+      const user = await UserModel.createUser({
+        ...req.body,
+        role: 'CUSTOMER'
+      });
+      
+      // Include role in JWT payload
+      const token = jwt.sign(
+        { id: user.id, email: user.email, role: user.role }, 
+        process.env.JWT_SECRET, 
+        { expiresIn: '24h' }
+      );
+      
       res.status(201).json({ user, token });
     } catch (error) {
       res.status(500).json({ error: error.message });
@@ -33,7 +44,13 @@ class UserController {
         return res.status(401).json({ error: 'Invalid credentials' });
       }
 
-      const token = jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '24h' });
+      // Include role in JWT payload
+      const token = jwt.sign(
+        { id: user.id, email: user.email, role: user.role }, 
+        process.env.JWT_SECRET, 
+        { expiresIn: '24h' }
+      );
+
 
       // Create a new user object without the password
       const { password: _, ...userWithoutPassword } = user;
@@ -67,6 +84,59 @@ class UserController {
       res.status(500).json({ error: error.message });
     }
   }
+
+
+
+    // New method to request seller status
+    async requestSellerStatus(req, res) {
+      try {
+        const { reason, businessInfo } = req.body;
+        
+        if (!reason) {
+          return res.status(400).json({ error: 'Please provide a reason for becoming a seller' });
+        }
+        
+        const userId = req.user.id;
+        
+        // Update user with seller request information
+        const user = await UserModel.updateUser(userId, {
+          sellerRequestStatus: 'PENDING',
+          sellerRequestDate: new Date(),
+          sellerRequestInfo: JSON.stringify({
+            reason,
+            businessInfo: businessInfo || '',
+            requestedAt: new Date()
+          })
+        });
+        
+        res.json({ 
+          success: true, 
+          message: 'Seller request submitted successfully',
+          status: user.sellerRequestStatus
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    }
+    
+    // New method to check seller request status
+    async checkSellerStatus(req, res) {
+      try {
+        const user = await UserModel.getUserById(req.user.id);
+        
+        res.json({
+          role: user.role,
+          sellerRequestStatus: user.sellerRequestStatus || null,
+          sellerRequestDate: user.sellerRequestDate || null
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    }
+  
+
+
+
 }
 
 module.exports = new UserController();

@@ -25,12 +25,16 @@ class ShoeController {
 
     async createShoe(req, res) {
         try {
-            const shoe = await ShoeModel.createShoe(req.body);
+            // Add the authenticated user's ID as creator
+            const shoe = await ShoeModel.createShoe(req.body, req.user.id);
             res.status(201).json(shoe);
         } catch (error) {
             res.status(500).json({ error: error.message });
         }
     }
+
+    // The updateShoe and deleteShoe methods remain mostly the same,
+    // as permissions are now handled in middleware
 
     async updateShoe(req, res) {
         try {

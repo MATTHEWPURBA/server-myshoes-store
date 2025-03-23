@@ -17,11 +17,14 @@ class OrderController {
 
     async createOrder(req, res) {
         try {
-            console.log('masuk pa')
-            console.log(req.body,'ini dari body')
             const order = await OrderModel.createOrder(req.body);
-            console.log(order,'ini orderan nih')
-            res.status(201).json(order);
+            
+            // Return the order with payment information
+            res.status(201).json({
+                ...order,
+                paymentUrl: order.paymentUrl,
+                snapToken: order.snapToken
+            });
         } catch (error) {
             res.status(500).json({ error: error.message });
         }
