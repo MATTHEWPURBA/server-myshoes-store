@@ -1,52 +1,47 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
+    previewFeatures = ["postgresqlExtensions"]
 }
+
+
 
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+  extensions = [vector]
 }
 
 model CartItem {
-  id       Int    @id @default(autoincrement())
+  id       Int  @id @default(autoincrement())
   userId   Int
-  user     User   @relation(fields: [userId], references: [id])
   shoeId   Int
-  shoe     Shoe   @relation(fields: [shoeId], references: [id])
   quantity Int
+  shoe     Shoe @relation(fields: [shoeId], references: [id])
+  user     User @relation(fields: [userId], references: [id])
 
   @@index([userId])
   @@index([shoeId])
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
-  email     String   @unique
-  password  String
-  name      String
-  role      UserRole @default(CUSTOMER)  // Add this field!
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt  
-  orders    Order[]
-  cartItems CartItem[] // Add this line
-
-    // Add these new fields
-  products  Shoe[]    // Products created by this user
-  // For seller requests
-  sellerRequestStatus String?  // "PENDING", "APPROVED", "REJECTED"
+  id                  Int           @id @default(autoincrement())
+  email               String        @unique
+  password            String
+  name                String
+  role                UserRole      @default(CUSTOMER)
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+  sellerRequestStatus String?
   sellerRequestDate   DateTime?
-  sellerRequestInfo   String?  // Additional information for becoming a seller
-
+  sellerRequestInfo   String?
+  cartItems           CartItem[]
+  chatSessions        ChatSession[]
+  orders              Order[]
+  products            Shoe[]
 }
 
 model Shoe {
-  id          Int      @id @default(autoincrement())
+  id          Int               @id @default(autoincrement())
   name        String
   brand       String
   price       Float
@@ -55,59 +50,84 @@ model Shoe {
   stock       Int
   imageUrl    String?
   description String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  cartItems   CartItem[] // Add this line
-
-   // Add this relationship
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
   createdBy   Int?
-  creator     User?     @relation(fields: [createdBy], references: [id])
-
+  cartItems   CartItem[]
+  embedding   ProductEmbedding?
+  creator     User?             @relation(fields: [createdBy], references: [id])
 }
 
 model Order {
-  id        Int          @id @default(autoincrement())
-  userId    Int
-  user      User         @relation(fields: [userId], references: [id])
-  total     Float
-  status    OrderStatus  @default(PENDING)
-  items     OrderItem[]  @relation("OrderToOrderItem")
-  createdAt DateTime     @default(now())
-  updatedAt DateTime     @updatedAt
-  
-  // Add shipping details
-  shippingMethod String?     // 'standard', 'express', etc.
-  shippingFee    Float?      // The shipping fee amount
-  
-  // Payment fields
-  paymentId    String?      @unique // Midtrans transaction ID
-  paymentUrl   String?      // Midtrans payment page URL
-  paymentMethod String?     // Payment method used
-  paymentTime  DateTime?    // When payment was completed
-  snapToken    String?      // For Snap redirect payments
-
-  // Currency fields
-  currency     String?      // Payment currency code
-  exchangeRate Float?       // Exchange rate at payment time
+  id             Int         @id @default(autoincrement())
+  userId         Int
+  total          Float
+  status         OrderStatus @default(PENDING)
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+  shippingMethod String?
+  shippingFee    Float?
+  paymentId      String?     @unique
+  paymentUrl     String?
+  paymentMethod  String?
+  paymentTime    DateTime?
+  snapToken      String?
+  currency       String?
+  exchangeRate   Float?
+  user           User        @relation(fields: [userId], references: [id])
+  items          OrderItem[] @relation("OrderToOrderItem")
 }
 
 model ExchangeRate {
-  currency    String   @id
-  rate        Float
-  updatedAt   DateTime @default(now())
-  updatedBy   String?
+  currency  String   @id
+  rate      Float
+  updatedAt DateTime @default(now())
+  updatedBy String?
 }
 
-
 model OrderItem {
-  id       Int    @id @default(autoincrement())
+  id       Int   @id @default(autoincrement())
   orderId  Int
-  order    Order  @relation("OrderToOrderItem", fields: [orderId], references: [id], onDelete: Cascade)
   shoeId   Int
   quantity Int
   price    Float
+  order    Order @relation("OrderToOrderItem", fields: [orderId], references: [id], onDelete: Cascade)
 }
 
+model ChatSession {
+  id           String        @id @default(cuid())
+  userId       Int?
+  sessionToken String        @unique
+  startedAt    DateTime      @default(now())
+  lastActiveAt DateTime      @default(now())
+  active       Boolean       @default(true)
+  metadata     Json?
+  messages     ChatMessage[]
+  user         User?         @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([active])
+}
+
+model ChatMessage {
+  id         String      @id @default(cuid())
+  sessionId  String
+  content    String
+  isFromUser Boolean
+  timestamp  DateTime    @default(now())
+  metadata   Json?
+  session    ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId])
+  @@index([timestamp])
+}
+
+model ProductEmbedding {
+  id        Int      @id
+  shoe      Shoe     @relation(fields: [id], references: [id], onDelete: Cascade)
+  embedding Unsupported("vector(512)") // For pgvector
+  updatedAt DateTime @default(now())
+}
 enum OrderStatus {
   PENDING
   WAITING_FOR_PAYMENT
@@ -118,7 +138,6 @@ enum OrderStatus {
   DELIVERED
   CANCELLED
 }
-
 
 enum UserRole {
   CUSTOMER
