@@ -125,7 +125,7 @@ model ChatMessage {
 model ProductEmbedding {
   id        Int      @id
   shoe      Shoe     @relation(fields: [id], references: [id], onDelete: Cascade)
-  embedding Unsupported("vector(512)") // For pgvector
+  embedding Unsupported("extensions.vector(512)") // For pgvector
   updatedAt DateTime @default(now())
 }
 enum OrderStatus {
