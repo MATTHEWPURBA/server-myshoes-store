@@ -122,12 +122,16 @@ model ChatMessage {
   @@index([timestamp])
 }
 
+// Add this new model
 model ProductEmbedding {
-  id        Int      @id
-  shoe      Shoe     @relation(fields: [id], references: [id], onDelete: Cascade)
-  embedding Unsupported("extensions.vector(512)") // For pgvector
-  updatedAt DateTime @default(now())
+  id        Int       @id
+  shoe      Shoe      @relation(fields: [id], references: [id], onDelete: Cascade)
+  embedding Float[]   // This will be the vector from TensorFlow
+  updatedAt DateTime  @default(now())
 }
+
+
+
 enum OrderStatus {
   PENDING
   WAITING_FOR_PAYMENT
