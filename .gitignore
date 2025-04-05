@@ -5,3 +5,4 @@ credentialsecosystem.config.js
 prisma-debug.log
 ecosystem.config.js
 credentials
+logs

@@ -4,16 +4,94 @@ const path = require('path');
 const { safeStringify, extractErrorInfo } = require('./objectUtils');
 
 
+// Log rotation configuration
+const LOG_MAX_SIZE = 10 * 1024 * 1024; // 10MB
+const LOG_RETENTION_DAYS = 7;
+
 // Make sure logs directory exists
 const logsDir = path.join(__dirname, '../../logs');
 if (!fs.existsSync(logsDir)) {
   fs.mkdirSync(logsDir, { recursive: true });
 }
 
-// File streams for persistent logging
-const accessLogStream = fs.createWriteStream(path.join(logsDir, 'access.log'), { flags: 'a' });
 
-const errorLogStream = fs.createWriteStream(path.join(logsDir, 'error.log'), { flags: 'a' });
+// Clean up old log files
+function cleanupOldLogs() {
+  try {
+    const files = fs.readdirSync(logsDir);
+    const now = new Date();
+    
+    files.forEach(file => {
+      const filePath = path.join(logsDir, file);
+      const stats = fs.statSync(filePath);
+      
+      // Delete files older than retention period
+      const fileAge = (now - stats.mtime) / (1000 * 60 * 60 * 24); // in days
+      if (fileAge > LOG_RETENTION_DAYS) {
+        fs.unlinkSync(filePath);
+        console.log(`Deleted old log file: ${file}`);
+      }
+    });
+  } catch (err) {
+    console.error(`Error cleaning up logs: ${err.message}`);
+  }
+}
+
+
+
+
+
+// Run cleanup on startup and then daily
+cleanupOldLogs();
+setInterval(cleanupOldLogs, 24 * 60 * 60 * 1000); // Run daily
+
+// Function to get a dated log filename
+function getLogFilename(baseFilename) {
+  const date = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+  return `${baseFilename}-${date}.log`;
+}
+
+// Create or get stream for current day's log
+function getLogStream(baseFilename) {
+  const filename = getLogFilename(baseFilename);
+  const filepath = path.join(logsDir, filename);
+  
+  // Create new stream or get existing one
+  return fs.createWriteStream(filepath, { flags: 'a' });
+}
+
+// Track current streams
+let currentAccessLogStream = getLogStream('access');
+let currentErrorLogStream = getLogStream('error');
+
+// Update streams daily
+setInterval(() => {
+  currentAccessLogStream = getLogStream('access');
+  currentErrorLogStream = getLogStream('error');
+}, 24 * 60 * 60 * 1000); // Every 24 hours
+
+// Then replace your existing stream definitions with:
+const accessLogStream = {
+  write: (data) => {
+    currentAccessLogStream.write(data);
+  }
+};
+
+const errorLogStream = {
+  write: (data) => {
+    currentErrorLogStream.write(data);
+  }
+};
+
+
+
+
+
+
+// File streams for persistent logging
+// const accessLogStream = fs.createWriteStream(path.join(logsDir, 'access.log'), { flags: 'a' });
+
+// const errorLogStream = fs.createWriteStream(path.join(logsDir, 'error.log'), { flags: 'a' });
 
 /**
  * Format a log message with timestamp and additional data
