@@ -1,0 +1,5104 @@
+{
+  "timestamp": "2025-04-04T09:57:37.243Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:40.311Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:41.733Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:44.180Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:45.489Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:46.858Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:48.153Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:49.862Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.468Z",
+  "message": "Failed to index product 1:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.480Z",
+  "message": "Failed to index product 2:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.485Z",
+  "message": "Failed to index product 4:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.500Z",
+  "message": "Failed to index product 5:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.505Z",
+  "message": "Failed to index product 6:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.510Z",
+  "message": "Failed to index product 7:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.514Z",
+  "message": "Failed to index product 8:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.519Z",
+  "message": "Failed to index product 9:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.523Z",
+  "message": "Failed to index product 10:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.525Z",
+  "message": "Failed to index product 11:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.528Z",
+  "message": "Failed to index product 12:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.530Z",
+  "message": "Failed to index product 13:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.533Z",
+  "message": "Failed to index product 14:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.536Z",
+  "message": "Failed to index product 15:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.537Z",
+  "message": "Failed to index product 16:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.541Z",
+  "message": "Failed to index product 17:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.543Z",
+  "message": "Failed to index product 18:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.546Z",
+  "message": "Failed to index product 19:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.548Z",
+  "message": "Failed to index product 20:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.551Z",
+  "message": "Failed to index product 21:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.746Z",
+  "message": "Failed to index product 22:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.749Z",
+  "message": "Failed to index product 23:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.753Z",
+  "message": "Failed to index product 24:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.759Z",
+  "message": "Failed to index product 25:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:51.768Z",
+  "message": "Failed to index product 3:",
+  "data": {
+    "message": "\nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.",
+    "name": "PrismaClientUnknownRequestError",
+    "stack": "PrismaClientUnknownRequestError: \nInvalid `prisma.productEmbedding.upsert()` invocation in\n/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:41\n\n  589 // Store in database\n  590 for (let j = 0; j < batch.length; j++) {\n  591   try {\n→ 592     await prisma.productEmbedding.upsert(\nOperation 'upsertOne' for model 'ProductEmbedding' does not match any query.\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7553)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async indexAllProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:592:11)\n    at async /home/ubuntu/server-myshoes-store/src/scripts/indexProducts.js:8:5"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:53.051Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:54.338Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:55.601Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:56.908Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:58.184Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:57:59.465Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:00.745Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:02.027Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:03.340Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:04.625Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:05.905Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:07.151Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:08.394Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:09.665Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:10.915Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:12.167Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:13.440Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:14.728Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:15.977Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:17.224Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:18.483Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:19.778Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:21.033Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:22.320Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:23.615Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:24.885Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:26.137Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:27.415Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:28.677Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:29.964Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:31.250Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:32.516Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:33.806Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:35.098Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:37.614Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:40.003Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:42.586Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:43.948Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:45.251Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:46.528Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:48.635Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:50.874Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:53.065Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:54.331Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:55.611Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:57.268Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:58:58.931Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:00.222Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:01.616Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:03.178Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:04.895Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:07.629Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:08.895Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:10.167Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:11.459Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:12.726Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:13.992Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:15.269Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:16.530Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:17.833Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:19.096Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:20.347Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:21.636Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:22.910Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:24.184Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:25.460Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:26.729Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:27.990Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:29.274Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:30.542Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:31.804Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:33.078Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:34.377Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:35.631Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:36.900Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:38.176Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:39.463Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:40.756Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:42.047Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:43.311Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:44.593Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:45.851Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:47.120Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:48.423Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:49.685Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:50.968Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:52.246Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:53.530Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:54.794Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:56.062Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:57.328Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:58.627Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T09:59:59.917Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:01.217Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:02.514Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:03.813Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:05.100Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:06.412Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:07.716Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:09.031Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:10.307Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:11.592Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:12.878Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:14.147Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:15.414Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:17.960Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:19.238Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:20.511Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:21.798Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:23.082Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:25.589Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:26.856Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:28.134Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:29.405Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:30.677Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:31.965Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:34.491Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:37.058Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:38.349Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:39.651Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:40.934Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:42.218Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:43.458Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:44.732Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:46.016Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:47.289Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:48.557Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:49.843Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:51.114Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:52.393Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:54.947Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:56.219Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:00:58.755Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:00.016Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:01.288Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:02.599Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:03.865Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:05.120Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:06.379Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:07.654Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:10.180Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:11.432Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:12.707Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:13.974Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:15.274Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:16.557Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:17.823Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:19.093Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:20.359Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:21.600Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:22.846Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:24.104Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:25.342Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:26.614Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:27.861Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:29.120Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:30.369Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:31.637Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:32.918Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:34.190Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:35.468Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:36.714Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:37.970Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T10:01:39.226Z",
+  "message": "Redis error:",
+  "data": {
+    "message": "connect ECONNREFUSED 127.0.0.1:6379",
+    "name": "Error",
+    "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+  }
+}
+{
+  "timestamp": "2025-04-04T12:16:29.237Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 1):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-04T12:16:30.481Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 2):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-04T12:16:32.713Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 3):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-04T12:26:42.819Z",
+  "message": "[dd06746e-078e-41bc-9c7e-ee57619fbb0a] GET /favicon.ico 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T12:26:51.964Z",
+  "message": "[2dc06e36-fcf8-4219-a490-e81d38d222e1] GET /favicon.ico 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T12:36:09.479Z",
+  "message": "[f09ff994-334e-489b-861f-6ebed7cdd0bc] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T12:43:41.304Z",
+  "message": "[03d5bb08-40c3-4558-9e4f-59543990f03b] POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D%22%22+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input 404 - 2ms",
+  "data": {
+    "method": "POST",
+    "url": "/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D%22%22+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:07.836Z",
+  "message": "[b0c5876a-0e28-4f19-9d3d-f2b52503b2c9] GET /users/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/users/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:08.319Z",
+  "message": "[020f0e8f-5a93-4ee7-b502-765753ad4384] GET /utility/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/utility/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:08.805Z",
+  "message": "[99d260f0-2b33-4f60-8a2c-e545e05620da] GET /www/.git/config 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/www/.git/config",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:09.286Z",
+  "message": "[6af6dbe4-23a9-472c-8719-1daf3597cfaf] GET /zend/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/zend/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:09.773Z",
+  "message": "[360a521a-f5b1-4e79-b329-8a1af00f92f4] GET /.config/.git/config 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/.config/.git/config",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:10.254Z",
+  "message": "[0bf6d939-afaf-4c7e-a3f8-595fa601ffc9] GET /.local/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.local/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:10.739Z",
+  "message": "[a70a22c1-e5ab-4ca7-a609-bdea0965a17b] GET /.secret/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.secret/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:11.226Z",
+  "message": "[0a2add36-471a-464a-9698-389898700536] GET /.temp/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.temp/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:11.709Z",
+  "message": "[c20470fa-f54f-4d08-afa6-05742812ece6] GET /.vscode/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.vscode/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:12.194Z",
+  "message": "[34df125f-9976-4103-aa4b-031864ff6dcd] GET /_archive/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_archive/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:12.679Z",
+  "message": "[5b1a99ab-bc71-443b-9793-6a7fdc7b657d] GET /_images/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_images/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:13.163Z",
+  "message": "[e885af72-1f8e-4bc3-a837-e92b75c5df93] GET /.deploy/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.deploy/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:13.648Z",
+  "message": "[6a09ae1e-4b40-4f3c-a0cb-d3ea444e7e5a] GET /_source/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_source/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:14.132Z",
+  "message": "[d24605c1-d94e-47fe-a8cd-3f2c599dca50] GET /_admin/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_admin/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:14.613Z",
+  "message": "[7910916c-f2af-410c-be74-58719dec002e] GET /_app/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_app/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:15.099Z",
+  "message": "[6dc7db2a-84dc-4f38-bfe5-cc1360aa9b35] GET /v1/.git/config 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/v1/.git/config",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 153
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:15.582Z",
+  "message": "[f7b9751a-8763-40c2-9694-07249d9d9785] GET /workspace/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/workspace/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:16.062Z",
+  "message": "[b8384891-5beb-46ae-8ccb-25b3f6bf6a7b] GET /.github/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.github/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:16.544Z",
+  "message": "[1266e6cb-d52c-4b83-8593-0b83dddc0736] GET /_api/.git/config 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/_api/.git/config",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:17.027Z",
+  "message": "[bbdc2153-d012-49c5-b57e-c1776e879386] GET /_stage/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_stage/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:17.512Z",
+  "message": "[9b3ab7c7-2ec9-4ca5-bd25-ba22172ff034] GET /_static/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_static/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:17.996Z",
+  "message": "[3097785d-db42-43af-a45f-79999c7c6bde] GET /.jenkins/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.jenkins/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:18.480Z",
+  "message": "[42233b1d-4823-46bf-b093-b7b3a42dd9d8] GET /_test/.git/config 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/_test/.git/config",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:18.965Z",
+  "message": "[e0c63203-f4f3-4507-b6e4-14fbc5ba1f71] GET /.tmp/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.tmp/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:19.449Z",
+  "message": "[b780f38d-f9fb-48da-85e9-ddacd8188afc] GET /_media/.git/config 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/_media/.git/config",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:19.930Z",
+  "message": "[08498d60-74a7-465b-b299-15682853d21e] GET /www-data/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/www-data/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:20.414Z",
+  "message": "[385d5674-0856-42e3-bcd0-ac57cbdaf7d0] GET /_data/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_data/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:20.895Z",
+  "message": "[e5e070b0-720c-4a16-8413-3c0aa7b863be] GET /.gitlab/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.gitlab/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:21.378Z",
+  "message": "[f6ae61fa-c05e-474e-8d12-880f7d25c444] GET /.svn/.git/config 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.svn/.git/config",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:21.864Z",
+  "message": "[56a123a3-2d50-4aed-a02e-cbbfc9e36f97] GET /_assets/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_assets/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:22.349Z",
+  "message": "[de38924a-3372-4ed1-a23b-edb7538165fd] GET /_js/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_js/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:22.834Z",
+  "message": "[71bca603-63b6-40b9-8f95-bbd9a1c0c3f3] GET /.docker/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.docker/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:23.319Z",
+  "message": "[5fde8083-0d25-4625-a8fa-b04addb933d2] GET /_backup/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_backup/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:23.807Z",
+  "message": "[50971685-5935-418a-822f-c49e5883f4f1] GET /_docs/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_docs/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:24.292Z",
+  "message": "[d537be70-834f-4f28-b0b4-e7399d609b13] GET /_modules/.git/config 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/_modules/.git/config",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:24.778Z",
+  "message": "[5fedfaaa-4175-4b03-9f09-7398757b86ed] GET /_site/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_site/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:25.264Z",
+  "message": "[c6a7879f-301a-4ddb-8a59-c52d91cd0b8d] GET /v2/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/v2/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 153
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:25.746Z",
+  "message": "[97cd52f0-927c-407f-9c94-41144ea82bef] GET /_private/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_private/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:26.232Z",
+  "message": "[1e328a58-4e8e-43f1-af2b-be6826bbb64f] GET /_cache/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_cache/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:26.717Z",
+  "message": "[5c3d2841-0104-47ea-865c-f9f3b8d7d56b] GET /_core/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_core/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:27.200Z",
+  "message": "[aaf6b507-25b7-42c5-8227-c664ddb7046e] GET /_lib/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_lib/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:27.687Z",
+  "message": "[b606392c-9abd-48e7-a281-bed5202dabdc] GET /_public/.git/config 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/_public/.git/config",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:28.169Z",
+  "message": "[0c5370f2-4f06-44b2-b0a5-f5a1fcbbb67e] GET /wordpress/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/wordpress/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:28.653Z",
+  "message": "[910968ce-4077-4d09-b0c9-c23c2a0e11b6] GET /_dev/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_dev/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T12:44:29.138Z",
+  "message": "[8382a571-9c4e-454d-a406-3a8abeb5b6ae] GET /_old/.git/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_old/.git/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T14:41:06.556Z",
+  "message": "[a9342580-e434-453f-aa55-0ec3db162804] GET /pdown 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/pdown",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 144
+  }
+}
+{
+  "timestamp": "2025-04-04T14:52:07.062Z",
+  "message": "[97c479aa-37e2-4ea9-810e-2d19c0e8be7e] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T14:52:07.831Z",
+  "message": "[6c3ea562-cf8d-48de-aa7d-8616ffba28e4] POST / 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T15:01:00.097Z",
+  "message": "[c685baa2-5d77-4412-ac7d-e53bf1b34d81] GET /.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T15:01:00.654Z",
+  "message": "[ad8c3f3e-b92f-41c1-ab20-147c9ca91561] POST / 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T15:01:01.064Z",
+  "message": "[952fc3d0-c8c5-4356-9546-a769f7d8ebee] GET /api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 174
+  }
+}
+{
+  "timestamp": "2025-04-04T16:11:59.674Z",
+  "message": "[e3cf22ee-45f1-411a-bf11-2ecca28b0621] GET /login.rsp 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/login.rsp",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:05.168Z",
+  "message": "[cb41f52b-a4db-4f55-98f5-3a5c2ea5dc5c] POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 204
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:05.595Z",
+  "message": "[5c5abfe0-9e81-4202-8ca2-02c8a9f95ce0] POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 315
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:05.953Z",
+  "message": "[ace6476f-c283-48af-9e27-0df4ebbfa4af] POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:06.357Z",
+  "message": "[112c7fcd-2b93-4e23-87f8-6dd716b6189f] GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 189
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:06.743Z",
+  "message": "[9cf7dfe3-e3e5-4d2b-bb22-4b3f58ef3d2a] GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 185
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:07.182Z",
+  "message": "[bae1111a-5334-44ea-9ce0-adcc8aa5d81f] GET /vendor/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 181
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:07.579Z",
+  "message": "[f8393fd2-1efa-4ea8-92e8-53084346c156] GET /vendor/phpunit/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/vendor/phpunit/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 177
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:07.916Z",
+  "message": "[804dcd0e-bd63-4a40-beaa-d328396e2505] GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/vendor/phpunit/phpunit/LICENSE/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 184
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:08.272Z",
+  "message": "[3c8d5b37-2d1d-412f-bc27-3922094d9e12] GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 196
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:08.641Z",
+  "message": "[a21a2246-9115-4e5f-bfb2-9d04cb7b25d7] GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 182
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:09.166Z",
+  "message": "[f04a0a6f-5dc2-4670-8e40-37a9c4cdc9a6] GET /phpunit/phpunit/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/phpunit/phpunit/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 178
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:09.513Z",
+  "message": "[3a4c89be-123d-4cf4-a0c6-57ceeba3d665] GET /phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 174
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:09.832Z",
+  "message": "[fcf1542e-4c45-48f8-95e0-6482d36697eb] GET /phpunit/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/phpunit/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 170
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:10.146Z",
+  "message": "[5e9777de-2741-4a09-9c68-dd4385c07ab0] GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 186
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:10.551Z",
+  "message": "[40f5f964-8f92-41d2-b3d5-95c77f5a52d7] GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/lib/phpunit/phpunit/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 182
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:10.965Z",
+  "message": "[f933899f-556f-48df-af61-38f8d68d4565] GET /lib/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/lib/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 178
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:11.497Z",
+  "message": "[96ef56a3-6a2b-404b-b54c-e35393760e4a] GET /lib/phpunit/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/lib/phpunit/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 174
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:11.833Z",
+  "message": "[26f2300a-d7c2-4fa5-8bcc-9182b50cab73] GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:12.245Z",
+  "message": "[2c0a0214-17c7-4aff-90b2-3a493682704f] GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 197
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:12.668Z",
+  "message": "[d04f8189-58c0-4f51-ba9e-59ccf8a16a23] GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:13.031Z",
+  "message": "[a8f1800a-072c-4353-a94f-bc26511f9c5b] GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 192
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:13.315Z",
+  "message": "[c252aef4-3b2f-4e96-8adf-fa0f49917f5e] GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:13.599Z",
+  "message": "[17b31c54-a144-4281-aac5-cbfab29c4acd] GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 194
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:13.885Z",
+  "message": "[dc5f9d94-0d18-4345-8374-9f6a8bad19ae] GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 195
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:14.152Z",
+  "message": "[5443936e-0ff1-4525-8135-0f0b6c571fcb] GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 192
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:14.450Z",
+  "message": "[15af544c-dfa7-4bb2-ab39-02096b7c433e] GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 195
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:14.772Z",
+  "message": "[cef7fcc0-2f76-4dd1-9cba-c3daca77e81e] GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 194
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:15.130Z",
+  "message": "[90379638-0564-42ed-a8df-9f92010a98cd] GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 197
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:15.465Z",
+  "message": "[6f4764ae-9161-45ca-879d-144cb1f82edb] GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:15.764Z",
+  "message": "[6e698e04-7f13-4373-85cd-24e3ed226539] GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 194
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:16.154Z",
+  "message": "[95c6c33b-df3f-431f-b0aa-ec187315d772] GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:16.593Z",
+  "message": "[46b8047f-d47f-4d64-9d9f-9fd798fed8d3] GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:17.172Z",
+  "message": "[17eb4164-a004-48c8-abd5-ebc31da889f0] GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 195
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:17.606Z",
+  "message": "[9a7323a2-320b-44b1-a733-2e20724c0fba] GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 196
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:18.044Z",
+  "message": "[7b358635-e9fa-40f4-8d6d-cdcb23d92bf2] GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 194
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:18.500Z",
+  "message": "[5a8c3332-79e2-4621-957a-130632f460b0] GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 206
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:19.011Z",
+  "message": "[d0be1794-1606-4fce-8c97-d2cf3bec9e70] GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 195
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:19.660Z",
+  "message": "[1289e3a0-d6a9-4fde-8d9e-32e32732ea38] GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 196
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:20.173Z",
+  "message": "[679040a3-14b6-4282-b3e2-8bbef5c3d541] GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 194
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:20.588Z",
+  "message": "[f4a55ec5-989e-49f3-ac73-547b861fe07e] GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 193
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:21.020Z",
+  "message": "[cfcc09fe-483d-405b-91cf-7269ae230c64] GET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:21.487Z",
+  "message": "[a8586f7d-0e5b-49a4-82ee-3d1cc32958bf] GET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:21.964Z",
+  "message": "[d4869215-32de-4392-9098-c90d5609ab4f] GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5(\"hi\"));?>+/tmp/index1.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5(\"hi\"));?>+/tmp/index1.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:22.321Z",
+  "message": "[4884d716-a359-4290-907d-790d7f12e71b] GET /index.php?lang=../../../../../../../../tmp/index1 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/index.php?lang=../../../../../../../../tmp/index1",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T16:14:22.715Z",
+  "message": "[61ad6ce6-d53d-4a09-8499-025164017b23] GET /containers/json 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/containers/json",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:26.879Z",
+  "message": "[78a3706c-a040-4368-b631-8bb04a0f3a53] GET /.git/HEAD 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.git/HEAD",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:27.714Z",
+  "message": "[e1279cd0-7436-4e43-84e0-1e6c7435394a] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:27.966Z",
+  "message": "[e11daef2-13e5-4427-b797-f1e5a2dd292e] GET /phpinfo 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/phpinfo",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 146
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:28.218Z",
+  "message": "[47726151-b525-4101-a19c-07c060f5aae0] GET /phpinfo.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/phpinfo.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:28.494Z",
+  "message": "[37048685-5b2c-4c75-b33b-6d9d4676ec99] GET /portal/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/portal/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:28.746Z",
+  "message": "[1c8a04bc-7767-45a8-b5b2-7c8ca9423215] GET /env/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/env/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:29.054Z",
+  "message": "[67523cb3-0006-4c77-9342-8f5ae3304af3] GET /api/.env 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/.env",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:29.312Z",
+  "message": "[8b018576-0646-456c-a13d-1214e2857a51] GET /app/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/app/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:29.566Z",
+  "message": "[dda67d01-3d8f-4568-9413-e32925238abe] GET /dev/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/dev/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:29.820Z",
+  "message": "[d5f13898-47f0-4f24-882b-9bfa7616daea] GET /new/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/new/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:30.072Z",
+  "message": "[af1bc4c5-e3a3-48a0-99a4-f60b77bd1191] GET /new/.env.local 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/new/.env.local",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 153
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:30.336Z",
+  "message": "[cdd53e7a-0882-4c24-bbfb-090a4885252c] GET /new/.env.production 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/new/.env.production",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:30.588Z",
+  "message": "[e1e90b2d-235b-4670-abb4-065e202625aa] GET /new/.env.staging 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/new/.env.staging",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:30.866Z",
+  "message": "[a6250b52-c592-487b-9266-09f14592f9b5] GET /_phpinfo.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_phpinfo.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:31.120Z",
+  "message": "[48347582-b616-4dbc-8163-26b9c3af14cc] GET /_profiler/phpinfo 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_profiler/phpinfo",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:31.395Z",
+  "message": "[778f6061-867a-4ef2-8f9e-ca42d8bf0e5e] GET /_profiler/phpinfo/info.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/_profiler/phpinfo/info.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 165
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:31.647Z",
+  "message": "[04f4b349-4b35-49f9-b18e-9bc679ba282d] GET /_profiler/phpinfo/phpinfo.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/_profiler/phpinfo/phpinfo.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 168
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:31.905Z",
+  "message": "[79516c70-d512-4fc3-8e8d-120100d850b3] GET /wp-config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/wp-config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:32.185Z",
+  "message": "[3131cd30-b98f-4e16-8a9d-4775c4495495] GET /aws-secret.yaml 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/aws-secret.yaml",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:32.436Z",
+  "message": "[a743c84a-9540-46e8-891f-65d01eff1384] GET /awstats/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/awstats/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:32.737Z",
+  "message": "[41525c53-3a35-45b2-acd2-f3defdbb4374] GET /conf/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/conf/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:32.989Z",
+  "message": "[5e4cdf1c-26c1-4ea6-b46a-dcf87c6bdc8b] GET /cron/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/cron/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:33.273Z",
+  "message": "[a0e2702d-1cd4-458e-8f3e-ac038b3c650e] GET /www/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/www/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:33.525Z",
+  "message": "[3afa01f5-a936-48eb-9781-5b5df37f2823] GET /docker/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/docker/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:44.435Z",
+  "message": "[ed5b8f64-2790-4ea6-ab53-45aad73c3cab] GET /env.backup 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/env.backup",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:44.680Z",
+  "message": "[460b1182-9fa7-4e23-bb7e-850bb4894395] GET /xampp/phpinfo.php 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/xampp/phpinfo.php",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:44.944Z",
+  "message": "[28879708-d650-48b9-a766-c1cdcdc1396c] GET /lara/info.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/lara/info.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 152
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:45.192Z",
+  "message": "[ef6e86b5-3a83-46d4-87e7-4bf15142e461] GET /lara/phpinfo.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/lara/phpinfo.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:45.521Z",
+  "message": "[b585a63e-5a24-4e9b-ac6b-0db580cabd36] GET /laravel/info.php 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/laravel/info.php",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:45.765Z",
+  "message": "[67a45a19-54cf-4c2c-87a2-d7b50b6cdc35] GET /.vscode/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.vscode/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:46.042Z",
+  "message": "[eb27bd7a-3b11-4307-ade8-66355af36828] GET /js/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/js/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 146
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:46.288Z",
+  "message": "[5a328b55-443c-4396-9cec-de84888a0754] GET /laravel/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/laravel/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:46.548Z",
+  "message": "[a8d21ced-2ba6-4b29-8384-dc2760f1a637] GET /laravel/core/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/laravel/core/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:46.823Z",
+  "message": "[2efc2736-aebc-420b-bc0f-12e88a47c7a6] GET /mail/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/mail/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:47.068Z",
+  "message": "[67c14b1b-15ef-4c48-b15d-bdb223f31ab6] GET /mailer/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/mailer/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:47.386Z",
+  "message": "[facc2583-cf07-48b1-bca4-4f0d652df67b] GET /nginx/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/nginx/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:47.636Z",
+  "message": "[95fd565d-3a6d-4642-8cf4-baaeea3c0bd3] GET /public/.env 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/public/.env",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:47.901Z",
+  "message": "[a944db2b-bde3-4f98-b107-23d996a90fef] GET /site/.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/site/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:48.148Z",
+  "message": "[9265f0e4-270f-4697-ad1e-189b14364348] GET /xampp/.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/xampp/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:48.394Z",
+  "message": "[91cea3a6-4583-4ac5-8d85-ca016baa6e14] GET /main/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/main/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:48.639Z",
+  "message": "[20dcbe90-04a1-4804-9c0b-a0c7414b4ec5] GET /node_modules/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/node_modules/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:48.903Z",
+  "message": "[2710b4ac-b1e6-481e-8a3a-dbe15022260d] GET /kyc/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/kyc/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:49.213Z",
+  "message": "[76d1fb6d-5561-4cb1-8177-1749d08129d0] GET /admin/.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:49.460Z",
+  "message": "[771a5808-87d4-4e85-b8e8-d1103976e406] GET /prod/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/prod/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:49.715Z",
+  "message": "[a6d0f9cb-898e-4f89-b2e7-02525586aeaf] GET /.env.bak 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.bak",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:49.961Z",
+  "message": "[081f3b8b-500f-490e-b2d3-5a4f5a8acb87] GET /api/shared/config/config.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/shared/config/config.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 167
+  }
+}
+{
+  "timestamp": "2025-04-04T17:39:50.205Z",
+  "message": "[1efcbebc-cb40-4f31-ba02-f51e9cc61f79] GET /api/shared/config.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/shared/config.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:04.968Z",
+  "message": "[8ab7a38f-1ed4-42f9-bc56-77bd39b915f9] GET /website/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/website/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:05.237Z",
+  "message": "[52f62f8d-1f83-4bf4-a3bb-cce13438e8a7] GET /development/.env 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/development/.env",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:05.471Z",
+  "message": "[d397d946-9ba9-43ad-86f9-d8eca04f4094] GET /backend/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/backend/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:05.711Z",
+  "message": "[08b198b1-e42d-434a-945c-f1d56539b4ad] GET /api/shared/config/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/shared/config/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:05.948Z",
+  "message": "[e06bb174-7a33-4cb3-8d20-f834a7e94b3f] GET /api/shared/.env 404 - 3ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/shared/.env",
+    "statusCode": 404,
+    "duration": 3,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:06.183Z",
+  "message": "[e87017a4-6b28-4fae-b736-2180286710ce] GET /api/config.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/config.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 153
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:06.478Z",
+  "message": "[c28be486-89b3-469e-a47c-0ed2f974d0e3] GET /service/email_service.py 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/service/email_service.py",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 163
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:06.714Z",
+  "message": "[59636b20-69bb-4e9f-8b02-128fba9ea13f] GET /node/.env_example 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/node/.env_example",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:06.987Z",
+  "message": "[022dc69a-7853-4fae-9701-4dcbb22ccda1] GET /.env.production.local 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.production.local",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:07.223Z",
+  "message": "[6be15359-e5d7-4069-b25e-589065ecf4c0] GET /.env.local 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.local",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:07.482Z",
+  "message": "[0de8762b-7ead-48e2-8c71-6b5ff8440593] GET /.env.example 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.example",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:07.729Z",
+  "message": "[a922e786-876a-4488-a386-8d9ce74165c8] GET /.env.stage 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.stage",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:07.964Z",
+  "message": "[ec1df46d-cf9e-4b6f-8c1c-230c78791ced] GET /server/config/database.js 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/server/config/database.js",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 164
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:08.254Z",
+  "message": "[28e5a1f5-f0a9-48cf-b204-76a5962ff01c] GET /.env.old 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.old",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:08.490Z",
+  "message": "[77fe6409-34a1-4742-bce5-51f401c9ba3d] GET /.env_sample 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env_sample",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:08.732Z",
+  "message": "[9c87c0b8-4350-48af-a0dc-4e83f1472f1c] GET /scripts/nodemailer.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/scripts/nodemailer.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:08.968Z",
+  "message": "[d86da25a-4477-4b2d-ace4-52661f02d0ef] GET /.env.prod 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env.prod",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:09.205Z",
+  "message": "[49725f6b-459d-44ba-bbf6-5f0bc0450505] GET /crm/.env 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/crm/.env",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:09.444Z",
+  "message": "[c288a241-37d4-489e-b486-1aa8ea779736] GET /local/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/local/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:09.678Z",
+  "message": "[1d48ada4-e1c8-4bd7-8bf9-b7ef5553b263] GET /core/.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/core/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:10.065Z",
+  "message": "[f6486d2c-f054-43fa-97cf-f6c7e5f4b59b] GET /apps/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/apps/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:10.324Z",
+  "message": "[023da5b2-f365-41a3-bf51-cba8ebcdd1c0] GET /application/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/application/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:10.626Z",
+  "message": "[d2360433-72a7-440d-8741-4f27090fd452] GET /web/.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/web/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:10.863Z",
+  "message": "[d09b82e5-9b73-4aea-81cc-ebda0afad554] GET /.aws/credentials 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.aws/credentials",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:11.115Z",
+  "message": "[8866081a-05a7-4a45-a024-87d7d50ab523] GET /wp-config.php.bak 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/wp-config.php.bak",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:11.351Z",
+  "message": "[3e3d6f7e-6c27-4ec5-95ae-6af852645334] GET /info.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/info.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:11.586Z",
+  "message": "[5cee97e3-e54f-47d0-8fe0-1447f1bae3bf] GET /dashboard/phpinfo.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/dashboard/phpinfo.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:11.863Z",
+  "message": "[de7c2fc8-8740-4220-83c0-fefcc75a145e] GET /static/js/main.141b0494.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/static/js/main.141b0494.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 165
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:12.099Z",
+  "message": "[a0454040-cda3-4ff0-880d-6b787f61756f] GET /static/js/2.ca066a4b.chunk.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/static/js/2.ca066a4b.chunk.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 168
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:12.360Z",
+  "message": "[0af56c18-9a02-4b16-9677-0da20be89d8b] GET /static/js/main.e85f7a37.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/static/js/main.e85f7a37.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 165
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:12.597Z",
+  "message": "[0fe512dd-8acc-4304-aaaf-baed5d639810] GET /admin/server_info.php 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/server_info.php",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:12.832Z",
+  "message": "[bc3656ec-728a-46e5-87d0-cd49bd3d9ac2] GET /server_info.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/server_info.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:13.109Z",
+  "message": "[3e0ec96a-baeb-4d0b-ac69-4e5c8f3edacf] GET /app_dev.php/_profiler/phpinfo 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/app_dev.php/_profiler/phpinfo",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 168
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:13.365Z",
+  "message": "[a5a9bbe0-4dbd-4264-a8b0-501117e18001] GET /test.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/test.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:13.625Z",
+  "message": "[d32db58a-ff46-43fa-b99f-9bca6bcc5977] GET /server-info 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/server-info",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:13.861Z",
+  "message": "[16b6ab86-3e3d-4a67-a24c-02dc8cff74ba] GET /server-info.php 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/server-info.php",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:14.100Z",
+  "message": "[f0075bc2-a115-452b-9b3a-786f23451755] GET /secured/phpinfo.php 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/secured/phpinfo.php",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:14.401Z",
+  "message": "[66a7d9ed-0f5d-4eaa-b390-732f9c7219a8] GET /config.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:14.639Z",
+  "message": "[2dd8f62c-641f-44d4-a062-76597f2e6743] GET /server.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/server.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:14.894Z",
+  "message": "[94f9fa2a-dff1-4fe7-a9bd-b2a345df7aa2] GET /appsettings.json 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/appsettings.json",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:15.130Z",
+  "message": "[b2431d95-b52b-4057-acfe-2dd195e3a31e] GET /shared/config/config.js 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/shared/config/config.js",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 162
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:25.713Z",
+  "message": "[9d07f0a0-de73-4691-a04f-24098a854630] GET /settings.py 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/settings.py",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:25.956Z",
+  "message": "[940f7ae6-f49d-4ea6-b652-cca5c2b004b6] GET /config.json 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config.json",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:26.217Z",
+  "message": "[cb3c221d-7254-4bda-82af-957e8374428d] GET /main.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/main.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 146
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:26.524Z",
+  "message": "[6a1219c1-1fa9-41ed-8adb-5fd33cf5fb95] GET /config/constants.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/constants.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 158
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:26.773Z",
+  "message": "[632e3ab1-254f-43cd-84a9-9178b618da9d] GET /application.properties 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/application.properties",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:27.099Z",
+  "message": "[bf064e35-9b35-4103-8c4e-91c6983ed9f0] GET /public/js/main.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/public/js/main.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:27.342Z",
+  "message": "[b534bff3-fede-43e3-bfd7-ca728a124172] GET /js/main.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/js/main.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:27.844Z",
+  "message": "[5fd46c64-225b-481f-8a62-e8479ad69cb8] GET /storage/logs/laravel.log 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/storage/logs/laravel.log",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 163
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:28.088Z",
+  "message": "[d7f08435-11f0-4abe-a7d2-3578ca43ec34] GET /karma.conf.json 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/karma.conf.json",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:28.388Z",
+  "message": "[5b690749-a8cb-4be9-9204-1df7d5f43473] GET /swagger.json 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/swagger.json",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:28.632Z",
+  "message": "[4e7a3b5a-aa96-40e6-81d2-b48aea19fa89] GET /swagger.js 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/swagger.js",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:28.888Z",
+  "message": "[21638e6a-0fa2-46f3-8f66-f970a1384d6a] GET /gatsby-config.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/gatsby-config.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:29.131Z",
+  "message": "[9afa443e-a26d-4a19-aba9-a27ce66782b4] GET /backend/config/default.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/backend/config/default.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 165
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:29.376Z",
+  "message": "[7775ce17-6145-4be9-a105-9f4721d68578] GET /app.py 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/app.py",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 145
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:29.634Z",
+  "message": "[f7ebbaa4-6795-4b9e-a924-acdca709d4c1] GET /admin/controllers/merchant.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/controllers/merchant.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 168
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:29.877Z",
+  "message": "[3779cb16-c510-4264-8a71-522fc1e91f4a] GET /admin/controllers/partner.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/controllers/partner.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 167
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:30.168Z",
+  "message": "[323bc512-8b12-4090-b128-047ffd9265ab] GET /api/config.js 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/config.js",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 152
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:30.412Z",
+  "message": "[94adcfc5-cd39-456e-a76c-2368ea92d256] GET /api/objects/codes.php.save 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/objects/codes.php.save",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 165
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:30.658Z",
+  "message": "[e1117d40-bd7c-4548-9a6c-e65f2a872fc6] GET /apis/config/config.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/apis/config/config.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:30.937Z",
+  "message": "[5421fe96-29dd-4d19-85f6-e316ffeff5c2] GET /apis/controllers/users.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/apis/controllers/users.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 164
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:31.183Z",
+  "message": "[3e72d43d-fcbf-4af5-b379-dfe800b09627] GET /app.js 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/app.js",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 145
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:31.470Z",
+  "message": "[cdb2ee4a-370c-41bf-add1-3af7a2f5cec7] GET /backend/config/development.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/backend/config/development.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 169
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:31.713Z",
+  "message": "[5fbb547c-01b1-4225-9a83-696af81383f2] GET /cloud/Scraper.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/cloud/Scraper.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:31.962Z",
+  "message": "[e269dc5a-c121-4fa2-837b-3284c5df546d] GET /config/application.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/application.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:32.209Z",
+  "message": "[b0156cf7-00e7-434e-9c2a-e4875a16b557] GET /config/storage.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/storage.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:32.452Z",
+  "message": "[e0ec65b0-c580-4a00-b62e-d7281f7fdf06] GET /configs/routes-4aug.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/configs/routes-4aug.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:32.762Z",
+  "message": "[de7b2e9d-e810-4c7b-b9e7-b97f717f242f] GET /configs/routes.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/configs/routes.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:33.005Z",
+  "message": "[92e52ea9-cf88-417b-90cf-c3131b9a17db] GET /configs/s3_config.json 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/configs/s3_config.json",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:33.258Z",
+  "message": "[f12451e4-aff4-43b0-8b4c-be561ff75bb6] GET /controller/admin/post.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/controller/admin/post.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 163
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:33.501Z",
+  "message": "[b1a9607a-991f-4018-8866-4c16f5c26caa] GET /controller/api/post.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/controller/api/post.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:45.576Z",
+  "message": "[46fcfc7b-6306-4e74-a967-98bef7397b17] GET /getcpuutil.php-bakworking 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/getcpuutil.php-bakworking",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 164
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:45.871Z",
+  "message": "[cb3e90b3-c7a2-4fb7-8754-3b111a7df8f7] GET /helper.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/helper.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:46.105Z",
+  "message": "[157fa1f3-f3b0-4083-afdd-9445bae34014] GET /helper/EmailHelper.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/helper/EmailHelper.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:46.342Z",
+  "message": "[1618e790-ba22-4d21-a283-26bb3053b72a] GET /index.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/index.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:46.620Z",
+  "message": "[5152b8fe-9209-43e6-a791-cd59b667a33f] GET /index.html 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/index.html",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:58.639Z",
+  "message": "[174368a3-3eaf-4b25-96d5-2dd91a3f67dd] GET /my_env/newsletter.py 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/my_env/newsletter.py",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:58.890Z",
+  "message": "[ddfa3734-68a9-40a9-ac09-5d78f6292a02] GET /my_env/palash.py 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/my_env/palash.py",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:59.172Z",
+  "message": "[52728fd3-e78e-4437-8654-dbc73cc49635] GET /mytest/astech_robot.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/mytest/astech_robot.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 161
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:59.415Z",
+  "message": "[7b95e4e8-7ecb-46b7-9499-ba9d1e32d811] GET /partner/config/config.js 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/partner/config/config.js",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 163
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:59.655Z",
+  "message": "[b05ee73c-08b3-4d09-83d5-aa4ff2575515] GET /config/settings.json 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/settings.json",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T17:40:59.909Z",
+  "message": "[7014d61d-bae1-4157-aa20-a01dcec71a42] GET /config/settings.local 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/settings.local",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:00.151Z",
+  "message": "[64e186cd-3ebf-41b8-a29a-8bd4de809058] GET /.circleci/configs/development.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.circleci/configs/development.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 172
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:00.427Z",
+  "message": "[7b09b458-ef46-43d8-b007-10996ea3355a] GET /config/settings.prod 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/settings.prod",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 159
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:00.670Z",
+  "message": "[e5141590-6bd9-485c-bfbf-f3ce3d6be58f] GET /app/config/parameters.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/app/config/parameters.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 164
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:00.912Z",
+  "message": "[81c2b833-7a33-40a5-ae2f-257eb3a17154] GET /config/parameters.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/parameters.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:01.263Z",
+  "message": "[fdaa187e-f2f1-4fe2-8980-b214daf14ae9] GET /user/config/config.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/user/config/config.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:01.504Z",
+  "message": "[d4339b3e-acc4-4996-94f9-79efe63857c7] GET /user/controllers/index.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/user/controllers/index.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 164
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:01.820Z",
+  "message": "[851c31b1-2e4d-4d04-a40c-60aae05bcd15] GET /.AWS_/credentials 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.AWS_/credentials",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 156
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:02.062Z",
+  "message": "[c04f5b28-b3f8-4ace-bfd2-cecebb0dc6bb] GET /config/local.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/local.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:02.332Z",
+  "message": "[5cacb56a-4761-43d8-b9da-0d52afb6304f] GET /backend/config/settings.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/backend/config/settings.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 166
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:02.573Z",
+  "message": "[a1c77819-ace6-4484-8d7a-ce349166f4d9] GET /api/config/config.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/config/config.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 160
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:02.819Z",
+  "message": "[1620ba57-5284-41a1-8e21-715604fb393e] GET /admin/config 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/config",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:03.158Z",
+  "message": "[c1b6312a-7005-4067-b085-498ccc9d492b] GET /appsettings.json 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/appsettings.json",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:03.400Z",
+  "message": "[96221daf-916a-432c-b83e-eee50b769cdb] GET /.travis.yml 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/.travis.yml",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:03.688Z",
+  "message": "[b935f0fc-2487-479a-934f-2d2d2f7a98cf] GET /aws.yml 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/aws.yml",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 146
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:03.928Z",
+  "message": "[d72f9133-20aa-4671-bd3c-a2b17e4898fe] GET /sms.py 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/sms.py",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 145
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:04.217Z",
+  "message": "[df989e66-1bd1-4fcb-9e61-4cb9f5cb766d] GET /config/config.json 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/config/config.json",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:04.458Z",
+  "message": "[cb7a9b44-9eeb-4dc1-8666-d64069d7e0c2] GET /main.yml 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/main.yml",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 147
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:04.699Z",
+  "message": "[bda511e4-8a27-4728-b9ee-7eb4b300799c] GET /helpers/utility.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/helpers/utility.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:04.983Z",
+  "message": "[c724c0bc-6e0b-4bd8-8b50-7a995ee47478] GET /server/s3.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/server/s3.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 151
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:05.224Z",
+  "message": "[f1e32a46-e896-4110-8d15-44f05cd67ca8] GET /s3.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/s3.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 144
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:05.493Z",
+  "message": "[0e7b1d7c-87ed-43d1-9f7b-75b0d010997f] GET /debug/default/view 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/debug/default/view",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T17:41:05.737Z",
+  "message": "[de8e5877-1ca2-4aa0-a6fd-3ad5c93e6be7] GET /aws/credentials 404 - 3ms",
+  "data": {
+    "method": "GET",
+    "url": "/aws/credentials",
+    "statusCode": 404,
+    "duration": 3,
+    "contentLength": 154
+  }
+}
+{
+  "timestamp": "2025-04-04T17:57:45.794Z",
+  "message": "[d1fa0a2d-8ced-4080-adf4-77acc29a3d1d] GET /.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T17:57:46.164Z",
+  "message": "[91d7a02a-6593-42fb-aa2c-826f3b5385c0] POST / 404 - 14ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 14,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T17:57:46.393Z",
+  "message": "[b61dbced-5123-41d2-99b5-664f818fbfc6] GET /api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 174
+  }
+}
+{
+  "timestamp": "2025-04-04T18:03:29.972Z",
+  "message": "[928e385a-3cfb-47fb-9414-32edb35605d8] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T18:03:30.684Z",
+  "message": "[279c7851-42ee-427c-b510-778176d8ae5a] POST / 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T19:08:15.578Z",
+  "message": "[2a2c1592-17f4-470c-92ae-14558e9a1fc9] GET /login 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/login",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 144
+  }
+}
+{
+  "timestamp": "2025-04-04T19:12:15.346Z",
+  "message": "[8682922b-0600-4d64-b1ea-935321f1e4a9] GET /v1 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/v1",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 141
+  }
+}
+{
+  "timestamp": "2025-04-04T19:52:31.598Z",
+  "message": "[1a50c6d2-747c-4840-9900-0f0c9cff94ae] GET /hudson 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/hudson",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 145
+  }
+}
+{
+  "timestamp": "2025-04-04T20:41:23.175Z",
+  "message": "[99ea1a08-1edb-48fd-bb46-66bcae768b1b] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T20:41:23.891Z",
+  "message": "[e1600929-0d32-4267-8f83-6b43ad151543] POST / 404 - 0ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T20:41:39.002Z",
+  "message": "[ffdf9056-5fc5-42eb-a3ed-a1b20d30ec3a] GET /actuator/gateway/routes 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/actuator/gateway/routes",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 162
+  }
+}
+{
+  "timestamp": "2025-04-04T20:53:40.514Z",
+  "message": "[f7bae450-d331-482a-98e4-861e51f4fefb] GET /.env 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T20:53:40.731Z",
+  "message": "[4c4f3ae9-8ca2-47ba-b37a-65881a82db51] POST / 404 - 6ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 6,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T20:53:41.152Z",
+  "message": "[9681080f-e1cf-4f38-acd4-6ba19078f2a6] GET /api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 174
+  }
+}
+{
+  "timestamp": "2025-04-04T21:45:12.288Z",
+  "message": "[83d6d1f4-fb18-4835-b905-5ab7c7e26b9b] GET /.git/config 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.git/config",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:53.850Z",
+  "message": "[c687e8cd-ec4b-4f1f-a11b-072bff72e484] GET /skin/default_1/images/logo.png 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/skin/default_1/images/logo.png",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 169
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:53.920Z",
+  "message": "[3d507ed0-ece0-47c6-baa8-f02bbe810613] GET /favicon.ico 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:53.995Z",
+  "message": "[8be058ad-7326-485e-b647-c5fd5269d3da] GET /favicon.ico 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.069Z",
+  "message": "[f4102766-3449-4050-a2ba-5c03f3d3a0ea] GET /favicon.ico 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.136Z",
+  "message": "[81d5241c-5fd3-452a-bf18-1155295c87bc] GET /favicon.ico 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.216Z",
+  "message": "[9f241e48-6fa3-40c8-9bb2-c0e2d9a41538] GET /favicon.ico 404 - 3ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 3,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.281Z",
+  "message": "[673810e6-fb5d-4524-b629-9c92df066096] GET /nobody/favicon.ico 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/nobody/favicon.ico",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 157
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.345Z",
+  "message": "[8afce63c-4fff-4fc9-8f31-7e137e78aa30] GET /favicon.ico 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.406Z",
+  "message": "[466cd5b6-054d-47be-843f-37c041887d81] GET /login.rsp 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/login.rsp",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 148
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.552Z",
+  "message": "[faded7d3-2000-454c-8c6c-fdd72c1b4061] GET /image/lgbg.jpg 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/image/lgbg.jpg",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 153
+  }
+}
+{
+  "timestamp": "2025-04-04T21:52:54.641Z",
+  "message": "[daad5b85-5a4f-4552-bf81-c9c63d15a989] GET /favicon.ico 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T22:06:11.884Z",
+  "message": "[8ea9a190-8bdd-4646-84b1-c0a1c8a67443] GET /favicon.ico 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T22:06:11.889Z",
+  "message": "[28fdeb2c-0170-4d23-99c4-2ec0d67d7924] GET /robots.txt 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/robots.txt",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 149
+  }
+}
+{
+  "timestamp": "2025-04-04T22:54:57.707Z",
+  "message": "[0550fbe1-be0f-44ff-b788-a19032bcc110] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T22:54:58.436Z",
+  "message": "[31787d8b-1d25-4163-919c-76e1e8aa4921] POST / 404 - 0ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T23:01:10.745Z",
+  "message": "[45102e8c-51d8-47fe-a491-b527111a6def] GET /admin/assets/js/views/login.js 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/admin/assets/js/views/login.js",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 169
+  }
+}
+{
+  "timestamp": "2025-04-04T23:03:11.408Z",
+  "message": "[db269992-bc51-4157-94c8-b995aabdeabb] GET /favicon.ico 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 150
+  }
+}
+{
+  "timestamp": "2025-04-04T23:52:38.253Z",
+  "message": "[5988b1f5-5e52-4066-b478-13958cece170] GET /mailman/listinfo/mailman 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/mailman/listinfo/mailman",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 163
+  }
+}
+{
+  "timestamp": "2025-04-04T23:55:21.011Z",
+  "message": "[0cf8e1a6-8355-456d-b289-50dd3012d737] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-04T23:55:21.323Z",
+  "message": "[bf5d613f-40b4-4fac-8c10-936e5b3fd134] POST / 404 - 5ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 5,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-04T23:55:21.524Z",
+  "message": "[779c23e6-5dd3-453c-8d6b-162ea3b52db0] GET /api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 174
+  }
+}
+{
+  "timestamp": "2025-04-05T00:00:14.310Z",
+  "message": "[929f037d-3a7e-4206-a4f8-75030444d791] GET /druid/index.html 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/druid/index.html",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 155
+  }
+}
+{
+  "timestamp": "2025-04-05T00:53:03.364Z",
+  "message": "[c921e851-86e7-41df-9e26-ad00a5af7bdb] GET /.env 404 - 2ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 2,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-05T02:01:45.853Z",
+  "message": "[51b9fb75-5ca5-4af1-b307-afce647d137d] GET /.env 404 - 0ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 0,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-05T02:01:46.580Z",
+  "message": "[fbffd860-c593-452b-8837-ae153faa18d3] POST / 404 - 1ms",
+  "data": {
+    "method": "POST",
+    "url": "/",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 140
+  }
+}
+{
+  "timestamp": "2025-04-05T02:03:53.221Z",
+  "message": "[34a91a41-45d2-4ad6-b27f-99aeb62758d7] GET /.env 404 - 1ms",
+  "data": {
+    "method": "GET",
+    "url": "/.env",
+    "statusCode": 404,
+    "duration": 1,
+    "contentLength": 143
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:09.281Z",
+  "message": "Vector search failed, falling back to keyword search:",
+  "data": {
+    "message": "\nInvalid `prisma.$queryRaw()` invocation:\n\n\nRaw query failed. Code: `42883`. Message: `ERROR: operator does not exist: double precision[] <=> vector\nHINT: No operator matches the given name and argument types. You might need to add explicit type casts.`",
+    "name": "PrismaClientKnownRequestError",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.$queryRaw()` invocation:\n\n\nRaw query failed. Code: `42883`. Message: `ERROR: operator does not exist: double precision[] <=> vector\nHINT: No operator matches the given name and argument types. You might need to add explicit type casts.`\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7362)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async findRelevantProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:310:25)\n    at async generateResponse (/home/ubuntu/server-myshoes-store/src/services/aiService.js:139:28)\n    at async /home/ubuntu/server-myshoes-store/src/controllers/chatController.js:191:22\n    at async /home/ubuntu/server-myshoes-store/src/services/queueService.js:1247:11"
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:09.550Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 1):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:10.787Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 2):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:13.028Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 3):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:34.477Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 1):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:36.162Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 2):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}
+{
+  "timestamp": "2025-04-05T02:15:38.401Z",
+  "message": "Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 3):",
+  "data": {
+    "message": "Request failed with status code 402",
+    "name": "AxiosError",
+    "status": 402,
+    "statusText": "Payment Required",
+    "code": "ERR_BAD_REQUEST"
+  }
+}

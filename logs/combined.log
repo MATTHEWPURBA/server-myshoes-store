@@ -1,0 +1,918 @@
+[2025-04-05T00:00:14.309Z] [929f037d-3a7e-4206-a4f8-75030444d791] GET /druid/index.html
+{
+  "method": "GET",
+  "url": "/druid/index.html",
+  "path": "/druid/index.html",
+  "params": {},
+  "query": {},
+  "ip": "172.202.118.10",
+  "userAgent": "Mozilla/5.0 zgrab/0.x"
+}
+[2025-04-05T00:00:14.310Z] [929f037d-3a7e-4206-a4f8-75030444d791] GET /druid/index.html 404 - 1ms
+{
+  "method": "GET",
+  "url": "/druid/index.html",
+  "statusCode": 404,
+  "duration": 1,
+  "contentLength": 155
+}
+[2025-04-05T00:00:24.523Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:00:24.594Z] Health check passed
+[2025-04-05T00:01:34.569Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:01:34.640Z] Health check passed
+[2025-04-05T00:02:44.627Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:02:44.697Z] Health check passed
+[2025-04-05T00:03:54.675Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:03:54.746Z] Health check passed
+[2025-04-05T00:05:04.732Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:05:04.801Z] Health check passed
+[2025-04-05T00:06:14.779Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:06:14.850Z] Health check passed
+[2025-04-05T00:06:38.520Z] [e59ec339-c8a1-4051-8971-561cadd72983] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "154.81.156.35",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46"
+}
+[2025-04-05T00:06:38.521Z] [e59ec339-c8a1-4051-8971-561cadd72983] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T00:07:24.822Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:07:24.892Z] Health check passed
+[2025-04-05T00:08:34.863Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:08:34.933Z] Health check passed
+[2025-04-05T00:09:44.924Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:09:44.994Z] Health check passed
+[2025-04-05T00:10:54.977Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:10:55.046Z] Health check passed
+[2025-04-05T00:12:05.035Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:12:05.105Z] Health check passed
+[2025-04-05T00:13:15.083Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:13:15.153Z] Health check passed
+[2025-04-05T00:14:25.097Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:14:25.167Z] Health check passed
+[2025-04-05T00:15:35.135Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:15:35.205Z] Health check passed
+[2025-04-05T00:16:45.193Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:16:45.263Z] Health check passed
+[2025-04-05T00:17:55.241Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:17:55.312Z] Health check passed
+[2025-04-05T00:19:05.292Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:19:05.366Z] Health check passed
+[2025-04-05T00:20:15.349Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:20:15.419Z] Health check passed
+[2025-04-05T00:21:25.396Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:21:25.466Z] Health check passed
+[2025-04-05T00:22:35.454Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:22:35.524Z] Health check passed
+[2025-04-05T00:23:45.506Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:23:45.575Z] Health check passed
+[2025-04-05T00:24:55.549Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:24:55.620Z] Health check passed
+[2025-04-05T00:26:05.602Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:26:05.672Z] Health check passed
+[2025-04-05T00:27:15.658Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:27:15.728Z] Health check passed
+[2025-04-05T00:28:25.689Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:28:25.759Z] Health check passed
+[2025-04-05T00:29:35.751Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:29:35.821Z] Health check passed
+[2025-04-05T00:30:45.800Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:30:45.870Z] Health check passed
+[2025-04-05T00:31:55.855Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:31:56.204Z] Health check passed
+[2025-04-05T00:33:05.895Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:33:05.965Z] Health check passed
+[2025-04-05T00:34:15.949Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:34:16.019Z] Health check passed
+[2025-04-05T00:35:25.997Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:35:26.067Z] Health check passed
+[2025-04-05T00:36:36.051Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:36:36.121Z] Health check passed
+[2025-04-05T00:37:46.107Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:37:46.177Z] Health check passed
+[2025-04-05T00:38:56.165Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:38:56.235Z] Health check passed
+[2025-04-05T00:40:06.228Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:40:06.300Z] Health check passed
+[2025-04-05T00:40:32.381Z] [e3423e63-5aeb-4d6c-8d17-ab2092d9d255] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "93.174.93.12",
+  "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; LND-AL30) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36"
+}
+[2025-04-05T00:40:32.389Z] [e3423e63-5aeb-4d6c-8d17-ab2092d9d255] GET / 200 - 8ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 8,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T00:41:16.261Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:41:16.331Z] Health check passed
+[2025-04-05T00:42:26.312Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:42:26.382Z] Health check passed
+[2025-04-05T00:43:36.365Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:43:36.435Z] Health check passed
+[2025-04-05T00:44:46.412Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:44:46.482Z] Health check passed
+[2025-04-05T00:45:56.463Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:45:56.550Z] Health check passed
+[2025-04-05T00:47:06.511Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:47:06.583Z] Health check passed
+[2025-04-05T00:48:16.554Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:48:16.625Z] Health check passed
+[2025-04-05T00:49:26.597Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:49:26.668Z] Health check passed
+[2025-04-05T00:50:36.651Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:50:36.722Z] Health check passed
+[2025-04-05T00:51:46.705Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:51:46.776Z] Health check passed
+[2025-04-05T00:52:56.763Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:52:56.834Z] Health check passed
+[2025-04-05T00:53:03.362Z] [c921e851-86e7-41df-9e26-ad00a5af7bdb] GET /.env
+{
+  "method": "GET",
+  "url": "/.env",
+  "path": "/.env",
+  "params": {},
+  "query": {},
+  "ip": "196.251.70.87",
+  "userAgent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.5000"
+}
+[2025-04-05T00:53:03.364Z] [c921e851-86e7-41df-9e26-ad00a5af7bdb] GET /.env 404 - 2ms
+{
+  "method": "GET",
+  "url": "/.env",
+  "statusCode": 404,
+  "duration": 2,
+  "contentLength": 143
+}
+[2025-04-05T00:54:06.806Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:54:06.877Z] Health check passed
+[2025-04-05T00:55:16.858Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:55:16.930Z] Health check passed
+[2025-04-05T00:56:26.912Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:56:26.982Z] Health check passed
+[2025-04-05T00:57:36.963Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:57:37.034Z] Health check passed
+[2025-04-05T00:58:47.010Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:58:47.081Z] Health check passed
+[2025-04-05T00:59:57.058Z] No successful operations for 70s, checking connection health
+[2025-04-05T00:59:57.129Z] Health check passed
+[2025-04-05T01:01:07.113Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:01:07.184Z] Health check passed
+[2025-04-05T01:02:17.170Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:02:17.241Z] Health check passed
+[2025-04-05T01:03:27.225Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:03:27.296Z] Health check passed
+[2025-04-05T01:04:37.275Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:04:37.346Z] Health check passed
+[2025-04-05T01:05:47.334Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:05:47.405Z] Health check passed
+[2025-04-05T01:06:57.385Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:06:57.456Z] Health check passed
+[2025-04-05T01:08:07.428Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:08:07.498Z] Health check passed
+[2025-04-05T01:09:17.466Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:09:17.537Z] Health check passed
+[2025-04-05T01:09:55.833Z] [d1bf54a2-ff7f-4787-bff9-0da6054e8e37] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "47.122.48.75",
+  "userAgent": "Mozilla/5.0 (Android 14; Mobile; rv:128.0) Gecko/128.0 Firefox/128.0"
+}
+[2025-04-05T01:09:55.834Z] [d1bf54a2-ff7f-4787-bff9-0da6054e8e37] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T01:09:56.047Z] [35083af7-31d7-4bbf-b002-426e5e1c13e5] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "47.122.48.75",
+  "userAgent": "Mozilla/5.0 (Android 14; Mobile; rv:128.0) Gecko/128.0 Firefox/128.0"
+}
+[2025-04-05T01:09:56.048Z] [35083af7-31d7-4bbf-b002-426e5e1c13e5] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T01:10:27.498Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:10:27.568Z] Health check passed
+[2025-04-05T01:11:37.542Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:11:37.614Z] Health check passed
+[2025-04-05T01:12:47.584Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:12:47.656Z] Health check passed
+[2025-04-05T01:13:57.623Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:13:57.694Z] Health check passed
+[2025-04-05T01:15:07.664Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:15:07.735Z] Health check passed
+[2025-04-05T01:16:17.708Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:16:17.779Z] Health check passed
+[2025-04-05T01:17:27.740Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:17:27.811Z] Health check passed
+[2025-04-05T01:18:37.796Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:18:37.867Z] Health check passed
+[2025-04-05T01:19:47.823Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:19:47.894Z] Health check passed
+[2025-04-05T01:20:57.870Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:20:57.941Z] Health check passed
+[2025-04-05T01:22:07.923Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:22:07.994Z] Health check passed
+[2025-04-05T01:23:17.986Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:23:18.057Z] Health check passed
+[2025-04-05T01:24:28.025Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:24:28.096Z] Health check passed
+[2025-04-05T01:25:38.071Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:25:38.142Z] Health check passed
+[2025-04-05T01:26:48.131Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:26:48.202Z] Health check passed
+[2025-04-05T01:27:58.195Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:27:58.265Z] Health check passed
+[2025-04-05T01:29:08.254Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:29:08.325Z] Health check passed
+[2025-04-05T01:30:18.303Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:30:18.374Z] Health check passed
+[2025-04-05T01:31:28.364Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:31:28.435Z] Health check passed
+[2025-04-05T01:32:22.105Z] [48a2b080-4a44-4a24-927e-afd2144e31a7] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "153.137.78.14",
+  "userAgent": "curl/7.88.1"
+}
+[2025-04-05T01:32:22.106Z] [48a2b080-4a44-4a24-927e-afd2144e31a7] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T01:32:38.408Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:32:38.557Z] Health check passed
+[2025-04-05T01:33:48.470Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:33:48.540Z] Health check passed
+[2025-04-05T01:34:58.515Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:34:58.587Z] Health check passed
+[2025-04-05T01:36:08.572Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:36:08.642Z] Health check passed
+[2025-04-05T01:37:18.615Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:37:18.685Z] Health check passed
+[2025-04-05T01:38:28.665Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:38:28.735Z] Health check passed
+[2025-04-05T01:39:38.712Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:39:38.782Z] Health check passed
+[2025-04-05T01:40:48.773Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:40:48.843Z] Health check passed
+[2025-04-05T01:41:58.828Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:41:58.898Z] Health check passed
+[2025-04-05T01:43:08.894Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:43:09.356Z] Health check passed
+[2025-04-05T01:44:18.926Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:44:18.996Z] Health check passed
+[2025-04-05T01:45:28.981Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:45:29.051Z] Health check passed
+[2025-04-05T01:46:39.043Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:46:39.114Z] Health check passed
+[2025-04-05T01:47:49.087Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:47:49.158Z] Health check passed
+[2025-04-05T01:48:59.147Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:48:59.217Z] Health check passed
+[2025-04-05T01:50:09.199Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:50:09.270Z] Health check passed
+[2025-04-05T01:51:19.242Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:51:19.312Z] Health check passed
+[2025-04-05T01:52:29.300Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:52:29.370Z] Health check passed
+[2025-04-05T01:53:39.369Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:53:39.438Z] Health check passed
+[2025-04-05T01:54:49.430Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:54:49.500Z] Health check passed
+[2025-04-05T01:55:59.495Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:55:59.565Z] Health check passed
+[2025-04-05T01:57:09.544Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:57:09.614Z] Health check passed
+[2025-04-05T01:58:19.574Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:58:19.644Z] Health check passed
+[2025-04-05T01:59:29.624Z] No successful operations for 70s, checking connection health
+[2025-04-05T01:59:29.694Z] Health check passed
+[2025-04-05T02:00:39.685Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:00:39.754Z] Health check passed
+[2025-04-05T02:01:45.852Z] [51b9fb75-5ca5-4af1-b307-afce647d137d] GET /.env
+{
+  "method": "GET",
+  "url": "/.env",
+  "path": "/.env",
+  "params": {},
+  "query": {},
+  "ip": "78.153.140.159",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+}
+[2025-04-05T02:01:45.853Z] [51b9fb75-5ca5-4af1-b307-afce647d137d] GET /.env 404 - 0ms
+{
+  "method": "GET",
+  "url": "/.env",
+  "statusCode": 404,
+  "duration": 0,
+  "contentLength": 143
+}
+[2025-04-05T02:01:46.579Z] [fbffd860-c593-452b-8837-ae153faa18d3] POST /
+{
+  "method": "POST",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "78.153.140.159",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36",
+  "body": {}
+}
+[2025-04-05T02:01:46.580Z] [fbffd860-c593-452b-8837-ae153faa18d3] POST / 404 - 1ms
+{
+  "method": "POST",
+  "url": "/",
+  "statusCode": 404,
+  "duration": 1,
+  "contentLength": 140
+}
+[2025-04-05T02:01:49.747Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:01:49.817Z] Health check passed
+[2025-04-05T02:02:59.799Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:02:59.869Z] Health check passed
+[2025-04-05T02:03:53.220Z] [34a91a41-45d2-4ad6-b27f-99aeb62758d7] GET /.env
+{
+  "method": "GET",
+  "url": "/.env",
+  "path": "/.env",
+  "params": {},
+  "query": {},
+  "ip": "195.211.191.76",
+  "userAgent": "Mozilla/5.0 (Linux; U; Android 2.0; en-us; Milestone Build/ SHOLS_U2_01.03.1) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
+}
+[2025-04-05T02:03:53.221Z] [34a91a41-45d2-4ad6-b27f-99aeb62758d7] GET /.env 404 - 1ms
+{
+  "method": "GET",
+  "url": "/.env",
+  "statusCode": 404,
+  "duration": 1,
+  "contentLength": 143
+}
+[2025-04-05T02:04:09.860Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:04:09.930Z] Health check passed
+[2025-04-05T02:05:19.909Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:05:19.979Z] Health check passed
+[2025-04-05T02:06:29.959Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:06:30.029Z] Health check passed
+[2025-04-05T02:07:39.999Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:07:40.070Z] Health check passed
+[2025-04-05T02:08:50.047Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:08:50.118Z] Health check passed
+[2025-04-05T02:10:00.100Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:10:00.170Z] Health check passed
+[2025-04-05T02:11:10.132Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:11:10.202Z] Health check passed
+[2025-04-05T02:12:07.563Z] [a921a1fc-345f-47a5-ac92-e50d80d4c104] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "154.81.156.35",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46"
+}
+[2025-04-05T02:12:07.564Z] [a921a1fc-345f-47a5-ac92-e50d80d4c104] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T02:12:20.163Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:12:20.233Z] Health check passed
+[2025-04-05T02:13:30.219Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:13:30.290Z] Health check passed
+[2025-04-05T02:14:20.401Z] New WebSocket connection: uTtz43aZhLgVm4-bAAAH
+[2025-04-05T02:14:20.451Z] [acbf0af5-695e-436b-97d5-32ead8c98439] GET /api/shoes
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "path": "/api/shoes",
+  "params": {},
+  "query": {},
+  "ip": "162.158.23.72",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:14:20.499Z] [acbf0af5-695e-436b-97d5-32ead8c98439] GET /api/shoes 200 - 49ms
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "statusCode": 200,
+  "duration": 49,
+  "contentLength": "10587",
+  "routePath": "/"
+}
+[2025-04-05T02:14:26.446Z] Message from uTtz43aZhLgVm4-bAAAH: hi
+[2025-04-05T02:14:26.637Z] Using simple response handler for query: "hi"
+[2025-04-05T02:14:26.645Z] Chat request processed successfully in 63ms
+{
+  "sessionId": "c470733d-a57b-4c1f-b680-d10e6a0dd247",
+  "responseLength": 114,
+  "processingTime": 63
+}
+[2025-04-05T02:14:28.723Z] Message from uTtz43aZhLgVm4-bAAAH: howdy
+[2025-04-05T02:14:28.810Z] Using simple response handler for query: "howdy"
+[2025-04-05T02:14:28.819Z] Chat request processed successfully in 14ms
+{
+  "sessionId": "c470733d-a57b-4c1f-b680-d10e6a0dd247",
+  "responseLength": 114,
+  "processingTime": 14
+}
+[2025-04-05T02:14:30.559Z] Message from uTtz43aZhLgVm4-bAAAH: hello
+[2025-04-05T02:14:30.642Z] Using simple response handler for query: "hello"
+[2025-04-05T02:14:30.648Z] Chat request processed successfully in 10ms
+{
+  "sessionId": "c470733d-a57b-4c1f-b680-d10e6a0dd247",
+  "responseLength": 114,
+  "processingTime": 10
+}
+[2025-04-05T02:15:01.381Z] Message from uTtz43aZhLgVm4-bAAAH: i am looking for shoes with size 10
+[2025-04-05T02:15:01.470Z] Extracted attributes: {"size":10}
+[2025-04-05T02:15:01.470Z] Built where clause: {"AND":[{"stock":{"gt":0}},{"size":10},{"OR":[{"name":{"contains":"i am looking for shoes with size","mode":"insensitive"}},{"description":{"contains":"i am looking for shoes with size","mode":"insensitive"}}]}]}
+[2025-04-05T02:15:01.525Z] Attribute search results: []
+[2025-04-05T02:15:01.526Z] Loading Universal Sentence Encoder model...
+[2025-04-05T02:15:08.740Z] Model loaded successfully
+[2025-04-05T02:15:09.281Z] Vector search failed, falling back to keyword search:
+{
+  "message": "\nInvalid `prisma.$queryRaw()` invocation:\n\n\nRaw query failed. Code: `42883`. Message: `ERROR: operator does not exist: double precision[] <=> vector\nHINT: No operator matches the given name and argument types. You might need to add explicit type casts.`",
+  "name": "PrismaClientKnownRequestError",
+  "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.$queryRaw()` invocation:\n\n\nRaw query failed. Code: `42883`. Message: `ERROR: operator does not exist: double precision[] <=> vector\nHINT: No operator matches the given name and argument types. You might need to add explicit type casts.`\n    at Bn.handleRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:7362)\n    at Bn.handleAndLogRequestError (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6686)\n    at Bn.request (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:121:6393)\n    at async l (/home/ubuntu/server-myshoes-store/node_modules/@prisma/client/runtime/library.js:130:9645)\n    at async findRelevantProducts (/home/ubuntu/server-myshoes-store/src/services/vectorService.js:310:25)\n    at async generateResponse (/home/ubuntu/server-myshoes-store/src/services/aiService.js:139:28)\n    at async /home/ubuntu/server-myshoes-store/src/controllers/chatController.js:191:22\n    at async /home/ubuntu/server-myshoes-store/src/services/queueService.js:1247:11"
+}
+[2025-04-05T02:15:09.287Z] Found 0 results using enhanced keyword search
+[2025-04-05T02:15:09.287Z] Found 0 relevant products for query "i am looking for shoes with size 10"
+[2025-04-05T02:15:09.288Z] Calling Hugging Face API (model: mistralai/Mistral-7B-Instruct-v0.2, attempt: 1, timeout: 30000ms)
+[2025-04-05T02:15:09.549Z] Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 1):
+{
+  "message": "Request failed with status code 402",
+  "name": "AxiosError",
+  "status": 402,
+  "statusText": "Payment Required",
+  "code": "ERR_BAD_REQUEST"
+}
+[2025-04-05T02:15:09.550Z] Waiting 1000ms before retry...
+[2025-04-05T02:15:10.549Z] Calling Hugging Face API (model: mistralai/Mistral-7B-Instruct-v0.2, attempt: 2, timeout: 40000ms)
+[2025-04-05T02:15:10.785Z] Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 2):
+{
+  "message": "Request failed with status code 402",
+  "name": "AxiosError",
+  "status": 402,
+  "statusText": "Payment Required",
+  "code": "ERR_BAD_REQUEST"
+}
+[2025-04-05T02:15:10.787Z] Waiting 2000ms before retry...
+[2025-04-05T02:15:12.788Z] Calling Hugging Face API (model: mistralai/Mistral-7B-Instruct-v0.2, attempt: 3, timeout: 50000ms)
+[2025-04-05T02:15:13.028Z] Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 3):
+{
+  "message": "Request failed with status code 402",
+  "name": "AxiosError",
+  "status": 402,
+  "statusText": "Payment Required",
+  "code": "ERR_BAD_REQUEST"
+}
+[2025-04-05T02:15:13.028Z] All API attempts failed, using fallback response
+[2025-04-05T02:15:13.037Z] Chat request processed successfully in 11574ms
+{
+  "sessionId": "c470733d-a57b-4c1f-b680-d10e6a0dd247",
+  "responseLength": 141,
+  "processingTime": 11574
+}
+[2025-04-05T02:15:17.050Z] Message from uTtz43aZhLgVm4-bAAAH: white
+[2025-04-05T02:15:17.140Z] Using cached response for query: white
+[2025-04-05T02:15:17.146Z] Chat request processed successfully in 15ms
+{
+  "sessionId": "c470733d-a57b-4c1f-b680-d10e6a0dd247",
+  "responseLength": 171,
+  "processingTime": 15
+}
+[2025-04-05T02:15:17.859Z] [04c9b132-807a-4f5e-9ace-ea2b014780ca] GET /api/shoes/5
+{
+  "method": "GET",
+  "url": "/api/shoes/5",
+  "path": "/api/shoes/5",
+  "params": {},
+  "query": {},
+  "ip": "172.70.108.95",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:15:17.869Z] [04c9b132-807a-4f5e-9ace-ea2b014780ca] GET /api/shoes/5 200 - 10ms
+{
+  "method": "GET",
+  "url": "/api/shoes/5",
+  "statusCode": 200,
+  "duration": 10,
+  "contentLength": "417",
+  "routePath": "/:id"
+}
+[2025-04-05T02:15:18.182Z] [c371214f-b92b-442d-a508-8f125b2d51dd] GET /api/shoes/17
+{
+  "method": "GET",
+  "url": "/api/shoes/17",
+  "path": "/api/shoes/17",
+  "params": {},
+  "query": {},
+  "ip": "172.70.108.95",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:15:18.187Z] [c371214f-b92b-442d-a508-8f125b2d51dd] GET /api/shoes/17 200 - 5ms
+{
+  "method": "GET",
+  "url": "/api/shoes/17",
+  "statusCode": 200,
+  "duration": 5,
+  "contentLength": "396",
+  "routePath": "/:id"
+}
+[2025-04-05T02:15:18.501Z] [c30e3805-fba4-4649-87db-3c30f56da9d1] GET /api/shoes/3
+{
+  "method": "GET",
+  "url": "/api/shoes/3",
+  "path": "/api/shoes/3",
+  "params": {},
+  "query": {},
+  "ip": "172.70.108.95",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:15:18.505Z] [c30e3805-fba4-4649-87db-3c30f56da9d1] GET /api/shoes/3 200 - 4ms
+{
+  "method": "GET",
+  "url": "/api/shoes/3",
+  "statusCode": 200,
+  "duration": 4,
+  "contentLength": "397",
+  "routePath": "/:id"
+}
+[2025-04-05T02:15:33.680Z] Message from uTtz43aZhLgVm4-bAAAH: yes
+[2025-04-05T02:15:33.771Z] Calling Hugging Face API (model: mistralai/Mistral-7B-Instruct-v0.2, attempt: 1, timeout: 30000ms)
+[2025-04-05T02:15:34.477Z] Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 1):
+{
+  "message": "Request failed with status code 402",
+  "name": "AxiosError",
+  "status": 402,
+  "statusText": "Payment Required",
+  "code": "ERR_BAD_REQUEST"
+}
+[2025-04-05T02:15:34.477Z] Waiting 1000ms before retry...
+[2025-04-05T02:15:35.478Z] Calling Hugging Face API (model: mistralai/Mistral-7B-Instruct-v0.2, attempt: 2, timeout: 40000ms)
+[2025-04-05T02:15:36.161Z] Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 2):
+{
+  "message": "Request failed with status code 402",
+  "name": "AxiosError",
+  "status": 402,
+  "statusText": "Payment Required",
+  "code": "ERR_BAD_REQUEST"
+}
+[2025-04-05T02:15:36.162Z] Waiting 2000ms before retry...
+[2025-04-05T02:15:38.163Z] Calling Hugging Face API (model: mistralai/Mistral-7B-Instruct-v0.2, attempt: 3, timeout: 50000ms)
+[2025-04-05T02:15:38.400Z] Error calling model mistralai/Mistral-7B-Instruct-v0.2 (attempt 3):
+{
+  "message": "Request failed with status code 402",
+  "name": "AxiosError",
+  "status": 402,
+  "statusText": "Payment Required",
+  "code": "ERR_BAD_REQUEST"
+}
+[2025-04-05T02:15:38.401Z] All API attempts failed, using fallback response
+[2025-04-05T02:15:38.410Z] Chat request processed successfully in 4648ms
+{
+  "sessionId": "c470733d-a57b-4c1f-b680-d10e6a0dd247",
+  "responseLength": 212,
+  "processingTime": 4648
+}
+[2025-04-05T02:15:46.901Z] Disconnected: uTtz43aZhLgVm4-bAAAH
+[2025-04-05T02:16:40.303Z] No successful operations for 62s, checking connection health
+[2025-04-05T02:16:40.373Z] Health check passed
+[2025-04-05T02:17:50.322Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:17:50.393Z] Health check passed
+[2025-04-05T02:19:00.356Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:19:00.426Z] Health check passed
+[2025-04-05T02:20:10.405Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:20:10.475Z] Health check passed
+[2025-04-05T02:21:20.447Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:21:20.517Z] Health check passed
+[2025-04-05T02:22:30.490Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:22:30.560Z] Health check passed
+[2025-04-05T02:23:40.520Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:23:40.591Z] Health check passed
+[2025-04-05T02:24:50.544Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:24:50.614Z] Health check passed
+[2025-04-05T02:26:00.586Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:26:00.657Z] Health check passed
+[2025-04-05T02:26:32.144Z] [88a3fcff-c1b5-4086-9d6d-0db95bef037c] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "45.90.163.37"
+}
+[2025-04-05T02:26:32.145Z] [88a3fcff-c1b5-4086-9d6d-0db95bef037c] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T02:27:10.625Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:27:10.696Z] Health check passed
+[2025-04-05T02:28:20.664Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:28:20.735Z] Health check passed
+[2025-04-05T02:28:39.302Z] [e4ef9fb1-82da-4448-87fb-e54fd4209155] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "43.153.96.233",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+}
+[2025-04-05T02:28:39.303Z] [e4ef9fb1-82da-4448-87fb-e54fd4209155] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T02:29:30.700Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:29:30.771Z] Health check passed
+[2025-04-05T02:30:40.740Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:30:40.811Z] Health check passed
+[2025-04-05T02:31:50.781Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:31:50.852Z] Health check passed
+[2025-04-05T02:33:00.824Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:33:00.895Z] Health check passed
+[2025-04-05T02:34:10.875Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:34:10.946Z] Health check passed
+[2025-04-05T02:35:20.918Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:35:20.989Z] Health check passed
+[2025-04-05T02:36:30.959Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:36:31.030Z] Health check passed
+[2025-04-05T02:37:41.008Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:37:41.079Z] Health check passed
+[2025-04-05T02:38:51.051Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:38:51.121Z] Health check passed
+[2025-04-05T02:39:24.306Z] [827606c1-3f53-4fba-b29f-2546bf6ab3bf] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "185.40.4.51",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46"
+}
+[2025-04-05T02:39:24.306Z] [827606c1-3f53-4fba-b29f-2546bf6ab3bf] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T02:40:01.095Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:40:01.166Z] Health check passed
+[2025-04-05T02:40:02.554Z] New WebSocket connection: 1nJ2oH9475JbmBOZAAAJ
+[2025-04-05T02:40:02.632Z] [52c3a47c-50e9-497d-8296-415b017b7cc4] GET /api/shoes
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "path": "/api/shoes",
+  "params": {},
+  "query": {},
+  "ip": "172.68.164.85",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:40:02.679Z] [52c3a47c-50e9-497d-8296-415b017b7cc4] GET /api/shoes 304 - 47ms
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "statusCode": 304,
+  "duration": 47,
+  "routePath": "/"
+}
+[2025-04-05T02:40:20.943Z] New WebSocket connection: z-Ns8cwkOhYEd1EjAAAL
+[2025-04-05T02:40:21.128Z] [7c2cc8ca-8d1e-408c-80ed-31d673ec0724] GET /api/shoes
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "path": "/api/shoes",
+  "params": {},
+  "query": {},
+  "ip": "162.158.106.237",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:40:21.136Z] [7c2cc8ca-8d1e-408c-80ed-31d673ec0724] GET /api/shoes 200 - 8ms
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "statusCode": 200,
+  "duration": 8,
+  "contentLength": "10587",
+  "routePath": "/"
+}
+[2025-04-05T02:40:23.665Z] Disconnected: z-Ns8cwkOhYEd1EjAAAL
+[2025-04-05T02:40:33.572Z] [44feb055-4077-4da7-a675-9981daef97e3] POST /api/auth/login
+{
+  "method": "POST",
+  "url": "/api/auth/login",
+  "path": "/api/auth/login",
+  "params": {},
+  "query": {},
+  "ip": "104.23.175.221",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+  "body": {
+    "email": "Robhertomatt@gmail.com",
+    "password": "[REDACTED]"
+  }
+}
+{
+  id: 6,
+  email: 'Robhertomatt@gmail.com',
+  password: '$2b$10$Ec5kf2wi8tdispWNK3h4WelRLQOYw3OH8gAhporBDsHNFvBpDZq9G',
+  name: 'matthew',
+  role: 'CUSTOMER',
+  createdAt: 2025-03-23T14:16:53.637Z,
+  updatedAt: 2025-03-23T14:16:53.637Z,
+  sellerRequestStatus: null,
+  sellerRequestDate: null,
+  sellerRequestInfo: null
+} ni isi user
+{
+  id: 6,
+  email: 'Robhertomatt@gmail.com',
+  name: 'matthew',
+  role: 'CUSTOMER',
+  createdAt: 2025-03-23T14:16:53.637Z,
+  updatedAt: 2025-03-23T14:16:53.637Z,
+  sellerRequestStatus: null,
+  sellerRequestDate: null,
+  sellerRequestInfo: null
+} user without password
+[2025-04-05T02:40:33.678Z] [44feb055-4077-4da7-a675-9981daef97e3] POST /api/auth/login 200 - 107ms
+{
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 200,
+  "duration": 107,
+  "contentLength": "456",
+  "routePath": "/login"
+}
+[2025-04-05T02:40:33.783Z] [3575fe6a-f378-4889-a1c3-d54c281f2b80] GET /api/shoes
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "path": "/api/shoes",
+  "params": {},
+  "query": {},
+  "ip": "104.23.175.221",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:40:33.785Z] [03813010-c51d-464e-832d-e45470cec356] GET /api/cart
+{
+  "method": "GET",
+  "url": "/api/cart",
+  "path": "/api/cart",
+  "params": {},
+  "query": {},
+  "ip": "104.23.175.220",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:40:33.791Z] [3575fe6a-f378-4889-a1c3-d54c281f2b80] GET /api/shoes 304 - 8ms
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "statusCode": 304,
+  "duration": 8,
+  "routePath": "/"
+}
+[2025-04-05T02:40:33.802Z] [03813010-c51d-464e-832d-e45470cec356] GET /api/cart 200 - 17ms
+{
+  "method": "GET",
+  "url": "/api/cart",
+  "statusCode": 200,
+  "duration": 17,
+  "contentLength": "441",
+  "routePath": "/"
+}
+[2025-04-05T02:40:43.415Z] Disconnected: 1nJ2oH9475JbmBOZAAAJ
+[2025-04-05T02:40:43.894Z] [4ac805df-aa9d-4d2f-8f53-77a80464f322] GET /api/cart
+{
+  "method": "GET",
+  "url": "/api/cart",
+  "path": "/api/cart",
+  "params": {},
+  "query": {},
+  "ip": "104.23.175.220",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:40:43.907Z] [4ac805df-aa9d-4d2f-8f53-77a80464f322] GET /api/cart 304 - 13ms
+{
+  "method": "GET",
+  "url": "/api/cart",
+  "statusCode": 304,
+  "duration": 13,
+  "routePath": "/"
+}
+[2025-04-05T02:40:44.020Z] New WebSocket connection: uuo5iyYk5otQj07FAAAN
+[2025-04-05T02:40:44.166Z] [723bd1a3-4563-4e19-ae43-bde690d3b9c3] GET /api/shoes
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "path": "/api/shoes",
+  "params": {},
+  "query": {},
+  "ip": "104.23.175.220",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+}
+[2025-04-05T02:40:44.175Z] [723bd1a3-4563-4e19-ae43-bde690d3b9c3] GET /api/shoes 304 - 9ms
+{
+  "method": "GET",
+  "url": "/api/shoes",
+  "statusCode": 304,
+  "duration": 9,
+  "routePath": "/"
+}
+[2025-04-05T02:41:11.115Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:41:11.186Z] Health check passed
+[2025-04-05T02:42:21.146Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:42:21.216Z] Health check passed
+[2025-04-05T02:42:33.205Z] [a28db59d-969d-48c2-abb0-aca53cd84e0b] GET /
+{
+  "method": "GET",
+  "url": "/",
+  "path": "/",
+  "params": {},
+  "query": {},
+  "ip": "36.67.139.97",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+}
+[2025-04-05T02:42:33.206Z] [a28db59d-969d-48c2-abb0-aca53cd84e0b] GET / 200 - 1ms
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": 1,
+  "contentLength": "45",
+  "routePath": "/"
+}
+[2025-04-05T02:43:31.181Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:43:31.252Z] Health check passed
+[2025-04-05T02:44:41.212Z] No successful operations for 70s, checking connection health
+[2025-04-05T02:44:41.283Z] Health check passed

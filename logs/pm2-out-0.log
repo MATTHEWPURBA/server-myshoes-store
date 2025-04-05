@@ -1,0 +1,45 @@
+[2025-04-04T11:44:58.298Z] Initializing services...
+[2025-04-04T11:44:58.313Z] Setting up Redis connection...
+[2025-04-04T11:44:58.369Z] Attempting to start server on port 80
+[2025-04-04T11:44:58.372Z] Server successfully running on port 80
+[2025-04-04T11:44:58.419Z] Redis connected
+[2025-04-04T11:44:58.438Z] Redis ready
+[2025-04-04T11:44:58.442Z] Redis client successfully initialized
+[2025-04-04T11:44:58.442Z] Redis service initialized successfully
+[2025-04-04T11:44:58.442Z] Setting up RabbitMQ connection...
+[2025-04-04T11:44:59.245Z] Dead letter exchange created or confirmed
+[2025-04-04T11:44:59.314Z] Dead letter queue created or confirmed: chat_requests_dlq
+[2025-04-04T11:44:59.384Z] Dead letter queue created or confirmed: chat_responses_dlq
+[2025-04-04T11:44:59.453Z] Bound chat_requests_dlq to dlx exchange
+[2025-04-04T11:44:59.522Z] Bound chat_responses_dlq to dlx exchange
+[2025-04-04T11:44:59.591Z] Using existing chat_requests queue
+[2025-04-04T11:44:59.660Z] Using existing chat_responses queue
+[2025-04-04T11:44:59.661Z] Connected to RabbitMQ successfully
+[2025-04-04T11:44:59.661Z] RabbitMQ service initialized successfully
+[2025-04-04T11:44:59.661Z] Service initialization completed with status:
+{
+  "redis": true,
+  "rabbitmq": true,
+  "vectorService": false
+}
+WebSocket server initialized and awaiting connections
+[2025-04-04T11:44:59.664Z] WebSocket server initialized on port 80
+[2025-04-04T11:44:59.664Z] Initializing chat services...
+[2025-04-04T11:44:59.665Z] Setting up RabbitMQ connection...
+[2025-04-04T11:45:00.456Z] Dead letter exchange created or confirmed
+[2025-04-04T11:45:00.527Z] Dead letter queue created or confirmed: chat_requests_dlq
+[2025-04-04T11:45:00.598Z] Dead letter queue created or confirmed: chat_responses_dlq
+[2025-04-04T11:45:00.669Z] Bound chat_requests_dlq to dlx exchange
+[2025-04-04T11:45:00.739Z] Bound chat_responses_dlq to dlx exchange
+[2025-04-04T11:45:00.810Z] Using existing chat_requests queue
+[2025-04-04T11:45:00.881Z] Using existing chat_responses queue
+[2025-04-04T11:45:00.881Z] Connected to RabbitMQ successfully
+[2025-04-04T11:45:00.882Z] Starting consumer for chat_responses
+[2025-04-04T11:45:01.023Z] Consumer registered for chat_responses with tag: amq.ctag-YjnDzRkL92phewFp22jQgqsJd1IYl_A5
+[2025-04-04T11:45:01.024Z] Starting consumer for chat_requests
+[2025-04-04T11:45:01.164Z] Consumer registered for chat_requests with tag: amq.ctag-vmo8pjo8v9E8XdNuEZQ2QF2vSZnmlqz6
+[2025-04-04T11:45:01.165Z] Chat worker started
+[2025-04-04T11:45:01.165Z] Chat services initialized successfully
+[2025-04-04T11:45:01.165Z] Server initialization complete
+[2025-04-04T11:45:56.904Z] Redis connection closed
+[2025-04-04T11:45:56.905Z] Closed Redis connection
